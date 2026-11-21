@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-canvas: #0D0F13;
+  --bg-sidebar: #131720;
+  --bg-surface: #191D26;
+  --bg-surface-elevated: #212632;
+  --accent-gold-primary: #D4A359;
+  --accent-gold-subtle: rgba(212, 163, 89, 0.12);
+  --accent-orange-burn: #D97724;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --border-subtle: #262C3A;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom sleek dark scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D0F13;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262C3A;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4A359;
+}
+
+.sidebar-active-pill {
+  background: linear-gradient(90deg, #9A7236 0%, #5C4524 100%);
+}
+
+.card-selected-overlay {
+  background: linear-gradient(145deg, rgba(212, 163, 89, 0.12) 0%, rgba(25, 29, 38, 0.96) 65%);
+}
+
+/* ===== Identidade Institucional SEDUC / Governo do Piauí (padrão dos outros projetos GPR) ===== */
+.institutional-backdrop {
+  position: absolute;
+  z-index: 1;
+  inset: 0 0 0 auto;
+  height: 100%;
+  width: auto;
+  max-width: min(78vw, 680px);
+  pointer-events: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  opacity: 1;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.4) 2%, #000 14%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.4) 2%, #000 14%);
+}
+
+.facade-img {
+  height: 100%;
+  width: auto;
+  max-width: none;
+  object-fit: contain;
+  display: block;
+}
+
+.seduc-logo {
+  position: relative;
+  display: block;
+  flex: none;
+  width: clamp(116px, 14vw, 195px);
+  aspect-ratio: 1720 / 577;
+}
+
+.seduc-logo:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #e2eaf4;
+  -webkit-mask: url(/seduc-pi.png) center / contain no-repeat;
+  mask: url(/seduc-pi.png) center / contain no-repeat;
+}
+
+.seduc-logo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: inset(0 30.5% 0 50.6%);
+  object-fit: contain;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-info {
+  border-left: 1px solid rgba(255, 255, 255, 0.18);
+  padding-left: 14px;
+  min-width: 0;
+}

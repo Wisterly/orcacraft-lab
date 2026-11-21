@@ -1,0 +1,4028 @@
+{
+  "demands": [
+    {
+      "id": "dem-sala-aula",
+      "type": "MODULAR",
+      "title": "Construção de Sala de Aula (Padrão SEDUC/UGERF - Lote I Cerrados)",
+      "subtitle": "Fundação, Superestrutura, 3 Janelas Vidro 2 Folhas, Porta Ferro, Piso Cerâmico 45x45, Cobertura 1/2 Águas, Revestimento 1,60m Opcional",
+      "iconName": "Building2",
+      "baseUnit": "UN",
+      "defaultAreaM2": 42.48,
+      "subItems": [
+        {
+          "id": "sub-sala-fundacao-estrutura",
+          "title": "Fundação, Movimento de Terra, Superestrutura, Alvenaria, Piso Cerâmico 45x45 e Forro PVC (Base 42,48 m²)",
+          "unit": "m²",
+          "defaultQty": 42.48,
+          "services": [
+            {
+              "id": "srv-sala-98524",
+              "code": "98524",
+              "source": "SINAPI",
+              "description": "LIMPEZA MANUAL DE VEGETAÇÃO EM TERRENO COM ENXADA. AF_05/2018",
+              "unit": "M2",
+              "baseCoef": 33.333333333333336,
+              "estimatedUnitPrice": 2.63,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-sala-s21-17",
+              "code": "S21.17",
+              "source": "SEINFRA",
+              "description": "CARGA MANUAL DE ENTULHO EM CAMINHÃO BASCULANTE 6 M3",
+              "unit": "M3",
+              "baseCoef": 4,
+              "estimatedUnitPrice": 13.02,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-sala-97914",
+              "code": "97914",
+              "source": "SINAPI",
+              "description": "TRANSPORTE COM CAMINHÃO BASCULANTE DE 6 M³, EM VIA URBANA PAVIMENTADA, DMT ATÉ 30 KM (UNIDADE: M3XKM). AF_07/2020",
+              "unit": "M3XKM",
+              "baseCoef": 45.88888888888889,
+              "estimatedUnitPrice": 2.4,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-sala-93358",
+              "code": "93358",
+              "source": "SINAPI",
+              "description": "ESCAVAÇÃO MANUAL DE VALA COM PROFUNDIDADE MENOR OU IGUAL A 1,30 M. AF_02/2021",
+              "unit": "M3",
+              "baseCoef": 1.2500000000000002,
+              "estimatedUnitPrice": 71.56,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-sala-s3-3",
+              "code": "S3.3",
+              "source": "SEINFRA",
+              "description": "ATERRO MANUAL DE CAIXÃO DE EDIFICAÇÃO COM SOLO ARGILO-ARENOSO E COMPACTAÇÃO MECANIZADA",
+              "unit": "M3",
+              "baseCoef": 1.2500000000000002,
+              "estimatedUnitPrice": 72.23,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-sala-101616",
+              "code": "101616",
+              "source": "SINAPI",
+              "description": "PREPARO DE FUNDO DE VALA COM LARGURA MENOR QUE 1,5 M (ACERTO DO SOLO NATURAL). AF_08/2020",
+              "unit": "M2",
+              "baseCoef": 1.2500000000000002,
+              "estimatedUnitPrice": 5.33,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-sala-s4-4",
+              "code": "S4.4",
+              "source": "SEINFRA",
+              "description": "EXECUÇÃO DE SAPATA EM CONCRETO ARMADO FCK = 20 MPA, EXCLUSIVE FORMAS.",
+              "unit": "M3",
+              "baseCoef": 0.140625,
+              "estimatedUnitPrice": 1233.49,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-cp-5",
+              "code": "CP_5",
+              "source": "PRÓPRIO",
+              "description": "PILAR DE FUNDAÇÃO EM CONCRETO ARMADO FCK = 20 MPA, COM FABRICAÇÃO, MONTAGEM E DESMONTAGEM DE FORMA EM MADEIRA COMPENSADA RESINADA",
+              "unit": "M3",
+              "baseCoef": 0.013020833333333334,
+              "estimatedUnitPrice": 2737.89,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-s4-5",
+              "code": "S4.5",
+              "source": "SEINFRA",
+              "description": "VIGA BALDRAME EM CONCRETO ARMADO FCK = 20 MPA, FABRICAÇÃO, MONTAGEM E DESMONTAGEM DE FORMA EM MADEIRA COMPENSADA RESINADA",
+              "unit": "M3",
+              "baseCoef": 0.013020833333333334,
+              "estimatedUnitPrice": 2313.24,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-s4-2",
+              "code": "S4.2",
+              "source": "SEINFRA",
+              "description": "ALVENARIA DE EMBASAMENTO EM TIJOLO CERÂMICO DE 06 FUROS (09X14X19CM), ESPESSURA DE 14CM, ASSENTADO COM ARGAMASSA TRAÇO 1:4",
+              "unit": "M3",
+              "baseCoef": 0.013020833333333334,
+              "estimatedUnitPrice": 695.33,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-s5-4",
+              "code": "S5.4",
+              "source": "SEINFRA",
+              "description": "PILAR EM CONCRETO ARMADO FCK = 20 MPA, FABRICAÇÃO, MONTAGEM E DESMONTAGEM DE FORMA EM MADEIRA COMPENSADA RESINADA, INCLUSIVE ESCORAMENTO.",
+              "unit": "M3",
+              "baseCoef": 0.013020833333333334,
+              "estimatedUnitPrice": 2866.71,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-93204",
+              "code": "93204",
+              "source": "SINAPI",
+              "description": "CINTA DE AMARRAÇÃO DE ALVENARIA MOLDADA IN LOCO EM CONCRETO. AF_03/2016",
+              "unit": "M",
+              "baseCoef": 0.9722222222222222,
+              "estimatedUnitPrice": 47.95,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-101964",
+              "code": "101964",
+              "source": "SINAPI",
+              "description": "LAJE PRÉ-MOLDADA UNIDIRECIONAL, BIAPOIADA, PARA FORRO, ENCHIMENTO EM CERÂMICA, VIGOTA CONVENCIONAL, ALTURA TOTAL (8+3). AF_11/2020_PA",
+              "unit": "M2",
+              "baseCoef": 1.3333333333333335,
+              "estimatedUnitPrice": 149.48,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-103332",
+              "code": "103332",
+              "source": "SINAPI",
+              "description": "ALVENARIA DE VEDAÇÃO DE BLOCOS CERÂMICOS FURADOS NA HORIZONTAL DE 9X14X19 CM (ESPESSURA 9 CM) E ARGAMASSA DE ASSENTAMENTO. AF_12/2021",
+              "unit": "M2",
+              "baseCoef": 1.2500000000000002,
+              "estimatedUnitPrice": 99.89,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-s21-6",
+              "code": "S21.6",
+              "source": "SEINFRA",
+              "description": "ESTRUTURA EM TUBO METALON DE 40X20MM PARA PLATIBANDA REVESTIDO EM ACM, EXCLUSIVE REVESTIMENTO ACM - FORNECIMENTO E INSTALAÇÃO",
+              "unit": "KG",
+              "baseCoef": 3.1250000000000004,
+              "estimatedUnitPrice": 20.5,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-96116",
+              "code": "96116",
+              "source": "SINAPI",
+              "description": "FORRO EM RÉGUAS DE PVC, FRISADO, PARA AMBIENTES COMERCIAIS, INCLUSIVE ESTRUTURA BIDIRECIONAL DE FIXAÇÃO. AF_08/2023",
+              "unit": "M2",
+              "baseCoef": 1.011111111111111,
+              "estimatedUnitPrice": 54.78,
+              "wbsStage": "COBERTA_FORRO",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-87905",
+              "code": "87905",
+              "source": "SINAPI",
+              "description": "CHAPISCO APLICADO EM ALVENARIA (COM PRESENÇA DE VÃOS) E ESTRUTURAS DE CONCRETO DE FACHADA, COM COLHER DE PEDREIRO. AF_10/2022",
+              "unit": "M2",
+              "baseCoef": 1.7195,
+              "estimatedUnitPrice": 6.98,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-87775",
+              "code": "87775",
+              "source": "SINAPI",
+              "description": "EMBOÇO OU MASSA ÚNICA EM ARGAMASSA TRAÇO 1:2:8, PREPARO MECÂNICO COM BETONEIRA 400 L, APLICADA EM PANOS DE FACHADA COM VÃOS. AF_08/2022",
+              "unit": "M2",
+              "baseCoef": 1.7195,
+              "estimatedUnitPrice": 46.98,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-87251",
+              "code": "87251",
+              "source": "SINAPI",
+              "description": "REVESTIMENTO CERÂMICO PARA PISO COM PLACAS TIPO ESMALTADA EXTRA DE DIMENSÕES 45X45 CM APLICADA EM AMBIENTES > 10 M2. AF_02/2023_PE",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 53.94,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-s10-1",
+              "code": "S10.1",
+              "source": "SEINFRA",
+              "description": "PISO EM GRANILITE, ESP. 8MM, ACABAMENTO POLIDO, MODULAÇÃO COM JUNTAS PLÁSTICAS EM QUADROS DE 1,00X1,00M (POLIMENTO MECANIZADO)",
+              "unit": "M2",
+              "baseCoef": 0.7417,
+              "estimatedUnitPrice": 83.69,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-s10-2",
+              "code": "S10.2",
+              "source": "SEINFRA",
+              "description": "POLIMENTO E FECHAMENTO DE FISSURAS DE PISO GRANILITE EXISTENTE",
+              "unit": "M2",
+              "baseCoef": 3.7071000000000005,
+              "estimatedUnitPrice": 22.61,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-94990",
+              "code": "94990",
+              "source": "SINAPI",
+              "description": "EXECUÇÃO DE PASSEIO (CALÇADA) OU PISO DE CONCRETO COM CONCRETO MOLDADO IN LOCO, FEITO EM OBRA, ACABAMENTO CONVENCIONAL. AF_08/2022",
+              "unit": "M3",
+              "baseCoef": 0.10000000000000002,
+              "estimatedUnitPrice": 795.13,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-98504",
+              "code": "98504",
+              "source": "SINAPI",
+              "description": "PLANTIO DE GRAMA BATATAIS EM PLACAS. AF_05/2018",
+              "unit": "M2",
+              "baseCoef": 2.5000000000000004,
+              "estimatedUnitPrice": 14.07,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-s21-1",
+              "code": "S21.1",
+              "source": "SEINFRA",
+              "description": "ESPELHO CRISTAL, ESPESSURA 4MM, COM PARAFUSOS DE FIXAÇÃO, SEM MOLDURA",
+              "unit": "M2",
+              "baseCoef": 0.06944444444444445,
+              "estimatedUnitPrice": 477.11,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-cp-27",
+              "code": "CP_27",
+              "source": "PRÓPRIO",
+              "description": "PLACA EM ALUMÍNIO 15x60CM C/ VINIL APLICADO EM 1 FACE E FIXAÇÃO COM FITA DUPLA FACE (FORNECIMENTO E MONTAGEM)",
+              "unit": "UN",
+              "baseCoef": 0.05555555555555556,
+              "estimatedUnitPrice": 81.02,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-s21-18",
+              "code": "S21.18",
+              "source": "SEINFRA",
+              "description": "LIMPEZA GERAL E FINAL DA OBRA",
+              "unit": "M2",
+              "baseCoef": 23.611111111111114,
+              "estimatedUnitPrice": 2.54,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-sala-cobertura",
+          "title": "Cobertura (Telhado Cerâmico 1 ou 2 Águas/Folhas, Pintura Imunizante e Calha Galv. 50cm)",
+          "unit": "m²",
+          "defaultQty": 49.855,
+          "services": [
+            {
+              "id": "srv-sala-cp-37",
+              "code": "CP_37",
+              "source": "PRÓPRIO",
+              "description": "RETELHAMENTO C/ TELHA CERÂMICA ATE 20% NOVA",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 49.54,
+              "wbsStage": "COBERTA_FORRO",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-102234",
+              "code": "102234",
+              "source": "SINAPI",
+              "description": "PINTURA IMUNIZANTE PARA MADEIRA, 2 DEMÃOS. AF_01/2021",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 23.44,
+              "wbsStage": "COBERTA_FORRO",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-94228",
+              "code": "94228",
+              "source": "SINAPI",
+              "description": "CALHA EM CHAPA DE AÇO GALVANIZADO NÚMERO 24, DESENVOLVIMENTO DE 50 CM, INCLUSO TRANSPORTE VERTICAL. AF_07/2019",
+              "unit": "M",
+              "baseCoef": 0.38461538461538464,
+              "estimatedUnitPrice": 77.85,
+              "wbsStage": "COBERTA_FORRO",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-sala-janelas",
+          "title": "Janelas de Vidro de Correr 2 Folhas em Alumínio + Vergas e Contravergas (3 un padrão)",
+          "unit": "un",
+          "defaultQty": 3,
+          "services": [
+            {
+              "id": "srv-sala-94570",
+              "code": "94570",
+              "source": "SINAPI",
+              "description": "JANELA DE ALUMÍNIO DE CORRER COM 2 FOLHAS PARA VIDROS, COM VIDROS, BATENTE, ACABAMENTO E FERRAGENS. AF_12/2019",
+              "unit": "M2",
+              "baseCoef": 4.425,
+              "estimatedUnitPrice": 283.34,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-93182",
+              "code": "93182",
+              "source": "SINAPI",
+              "description": "VERGA PRÉ-MOLDADA PARA JANELAS COM ATÉ 1,5 M DE VÃO. AF_03/2016",
+              "unit": "M",
+              "baseCoef": 2.655,
+              "estimatedUnitPrice": 36.54,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-93194",
+              "code": "93194",
+              "source": "SINAPI",
+              "description": "CONTRAVERGA PRÉ-MOLDADA PARA VÃOS DE ATÉ 1,5 M DE COMPRIMENTO. AF_03/2016",
+              "unit": "M",
+              "baseCoef": 2.655,
+              "estimatedUnitPrice": 35.94,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-sala-porta-ferro",
+          "title": "Porta de Chapa de Ferro Dupla MSG 14 + Alizar e Pintura Esmalte Sintético (un)",
+          "unit": "un",
+          "defaultQty": 1,
+          "services": [
+            {
+              "id": "srv-sala-s8-5",
+              "code": "S8.5",
+              "source": "SEINFRA",
+              "description": "PORTA DE FERRO LISA OU PARA VIDROS EM CHAPA DUPLA DE AÇO MSG 14 (E=2,00MM). INCLUSIVE PINTURA ANTICORROSIVA, BATENTES E FERRAGENS.",
+              "unit": "M2",
+              "baseCoef": 3.9648,
+              "estimatedUnitPrice": 365.77,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-100659",
+              "code": "100659",
+              "source": "SINAPI",
+              "description": "ALIZAR DE 5X1,5CM PARA PORTA FIXADO COM PREGOS, PADRÃO MÉDIO - FORNECIMENTO E INSTALAÇÃO. AF_12/2019",
+              "unit": "M",
+              "baseCoef": 5.9,
+              "estimatedUnitPrice": 7.91,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-100762",
+              "code": "100762",
+              "source": "SINAPI",
+              "description": "PINTURA COM TINTA ALQUÍDICA DE ACABAMENTO (ESMALTE SINTÉTICO FOSCO) APLICADA SOBRE SUPERFÍCIES METÁLICAS (02 DEMÃOS). AF_01/2020",
+              "unit": "M2",
+              "baseCoef": 31.843008,
+              "estimatedUnitPrice": 40.93,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-sala-pintura",
+          "title": "Emassamento e Pintura Interna/Externa Completa das Paredes (Fundo Selador + Massa Látex + Acrílica Premium)",
+          "unit": "m²",
+          "defaultQty": 339.84,
+          "services": [
+            {
+              "id": "srv-sala-88485",
+              "code": "88485",
+              "source": "SINAPI",
+              "description": "FUNDO SELADOR ACRÍLICO, APLICAÇÃO MANUAL EM PAREDE, UMA DEMÃO. AF_04/2023",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 3.18,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-88495",
+              "code": "88495",
+              "source": "SINAPI",
+              "description": "EMASSAMENTO COM MASSA LÁTEX, APLICAÇÃO EM PAREDE, UMA DEMÃO, LIXAMENTO MANUAL. AF_04/2023",
+              "unit": "M2",
+              "baseCoef": 0.5,
+              "estimatedUnitPrice": 9.93,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-88494",
+              "code": "88494",
+              "source": "SINAPI",
+              "description": "EMASSAMENTO COM MASSA LÁTEX, APLICAÇÃO EM TETO, UMA DEMÃO, LIXAMENTO MANUAL. AF_04/2023",
+              "unit": "M2",
+              "baseCoef": 0.012500000000000002,
+              "estimatedUnitPrice": 17.8,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-88489",
+              "code": "88489",
+              "source": "SINAPI",
+              "description": "PINTURA LÁTEX ACRÍLICA PREMIUM, APLICAÇÃO MANUAL EM PAREDES, DUAS DEMÃOS. AF_04/2023",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 9.19,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-s19-1",
+              "code": "S19.1",
+              "source": "SEINFRA",
+              "description": "PINTURA MANUAL COM TINTA EM PÓ MINERAL IMPERMEÁVEL EM PAREDES, DUAS DEMÃOS",
+              "unit": "M2",
+              "baseCoef": 0.8750000000000001,
+              "estimatedUnitPrice": 5.78,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-102491",
+              "code": "102491",
+              "source": "SINAPI",
+              "description": "PINTURA DE PISO COM TINTA ACRÍLICA, APLICAÇÃO MANUAL, 2 DEMÃOS, INCLUSO FUNDO PREPARADOR. AF_05/2021",
+              "unit": "M2",
+              "baseCoef": 0.125,
+              "estimatedUnitPrice": 15.29,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-sala-revestimento-160",
+          "title": "Revestimento Cerâmico 10x10cm nas Paredes até h=1,60m (1,50m Branco + 0,10m Fileira Verde SEDUC)",
+          "unit": "m²",
+          "defaultQty": 0,
+          "services": [
+            {
+              "id": "srv-sala-s9-1",
+              "code": "S9.1",
+              "source": "SEINFRA",
+              "description": "REVESTIMENTO CERÂMICO ESMALTADO 10X10CM PARA PAREDE (1,50M BRANCO + 0,10M FILEIRA VERDE FECHANDO H=1,60M), APLICADO COM ARGAMASSA AC-II",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 54.58,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-sala-luminarias",
+          "title": "Luminárias Lâmpada Tubular LED 2x18W + Caixas Sextavadas 3\"x3\" de Laje (un)",
+          "unit": "un",
+          "defaultQty": 28.0368,
+          "services": [
+            {
+              "id": "srv-sala-seduc-e201",
+              "code": "seduc e 201",
+              "source": "PRÓPRIO",
+              "description": "LUMINÁRIA LÂMPADA TUBULAR LED 2X18 W",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 74.31,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-92866",
+              "code": "92866",
+              "source": "SINAPI",
+              "description": "CAIXA SEXTAVADA 3\" X 3\", METÁLICA, INSTALADA EM LAJE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 11.03,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-sala-eletrica-completa",
+          "title": "Instalações Elétricas Completas (Tomadas, Interruptores, Circuitos de Climatização e QGBT)",
+          "unit": "un",
+          "defaultQty": 1,
+          "services": [
+            {
+              "id": "srv-sala-91941",
+              "code": "91941",
+              "source": "SINAPI",
+              "description": "CAIXA RETANGULAR 4\" X 2\" BAIXA (0,30 M DO PISO), PVC, INSTALADA EM PAREDE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+              "unit": "UN",
+              "baseCoef": 11.9416,
+              "estimatedUnitPrice": 9.56,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-91940",
+              "code": "91940",
+              "source": "SINAPI",
+              "description": "CAIXA RETANGULAR 4\" X 2\" MÉDIA (1,30 M DO PISO), PVC, INSTALADA EM PAREDE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+              "unit": "UN",
+              "baseCoef": 5.841,
+              "estimatedUnitPrice": 15.02,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-91926",
+              "code": "91926",
+              "source": "SINAPI",
+              "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 2,5 MM², ANTI-CHAMA 450/750 V, PARA CIRCUITOS TERMINAIS - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+              "unit": "M",
+              "baseCoef": 1168.2,
+              "estimatedUnitPrice": 3.56,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-91959",
+              "code": "91959",
+              "source": "SINAPI",
+              "description": "INTERRUPTOR SIMPLES (2 MÓDULOS), 10A/250V, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+              "unit": "UN",
+              "baseCoef": 0.7788,
+              "estimatedUnitPrice": 41.07,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-91953",
+              "code": "91953",
+              "source": "SINAPI",
+              "description": "INTERRUPTOR SIMPLES (1 MÓDULO), 10A/250V, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+              "unit": "UN",
+              "baseCoef": 2.596,
+              "estimatedUnitPrice": 26.84,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-91967",
+              "code": "91967",
+              "source": "SINAPI",
+              "description": "INTERRUPTOR SIMPLES (3 MÓDULOS), 10A/250V, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+              "unit": "UN",
+              "baseCoef": 1.6874,
+              "estimatedUnitPrice": 55.31,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-91996",
+              "code": "91996",
+              "source": "SINAPI",
+              "description": "TOMADA MÉDIA DE EMBUTIR (1 MÓDULO), 2P+T 10 A, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+              "unit": "UN",
+              "baseCoef": 5.841,
+              "estimatedUnitPrice": 31.46,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-92000",
+              "code": "92000",
+              "source": "SINAPI",
+              "description": "TOMADA BAIXA DE EMBUTIR (1 MÓDULO), 2P+T 10 A, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+              "unit": "UN",
+              "baseCoef": 11.9416,
+              "estimatedUnitPrice": 28.24,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-101880",
+              "code": "101880",
+              "source": "SINAPI",
+              "description": "QUADRO DE DISTRIBUIÇÃO DE ENERGIA EM CHAPA DE AÇO GALVANIZADO, DE EMBUTIR, COM BARRAMENTO TRIFÁSICO, PARA 30 DISJUNTORES DIN 150A",
+              "unit": "UN",
+              "baseCoef": 0.2596,
+              "estimatedUnitPrice": 461.57,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-91865",
+              "code": "91865",
+              "source": "SINAPI",
+              "description": "ELETRODUTO RÍGIDO ROSCÁVEL, PVC, DN 40 MM (1 1/4\"), PARA CIRCUITOS TERMINAIS, INSTALADO EM FORRO. AF_03/2023",
+              "unit": "M",
+              "baseCoef": 18.172,
+              "estimatedUnitPrice": 16.3,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-91871",
+              "code": "91871",
+              "source": "SINAPI",
+              "description": "ELETRODUTO RÍGIDO ROSCÁVEL, PVC, DN 25 MM (3/4\"), PARA CIRCUITOS TERMINAIS, INSTALADO EM PAREDE. AF_03/2023",
+              "unit": "M",
+              "baseCoef": 90.86,
+              "estimatedUnitPrice": 12.08,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-91872",
+              "code": "91872",
+              "source": "SINAPI",
+              "description": "ELETRODUTO RÍGIDO ROSCÁVEL, PVC, DN 32 MM (1\"), PARA CIRCUITOS TERMINAIS, INSTALADO EM PAREDE. AF_03/2023",
+              "unit": "M",
+              "baseCoef": 38.94,
+              "estimatedUnitPrice": 15.49,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-93653",
+              "code": "93653",
+              "source": "SINAPI",
+              "description": "DISJUNTOR MONOPOLAR TIPO DIN, CORRENTE NOMINAL DE 10A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+              "unit": "UN",
+              "baseCoef": 0.9086,
+              "estimatedUnitPrice": 11.22,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-seduc-e106",
+              "code": "SEDUC E 106",
+              "source": "PRÓPRIO",
+              "description": "INSTALAÇÃO DE DPS 20KA CLASSE II, INCLUSO DISJUNTOR DE PROTEÇÃO",
+              "unit": "UN",
+              "baseCoef": 1.0384,
+              "estimatedUnitPrice": 72.7,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-93654",
+              "code": "93654",
+              "source": "SINAPI",
+              "description": "DISJUNTOR MONOPOLAR TIPO DIN, CORRENTE NOMINAL DE 16A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+              "unit": "UN",
+              "baseCoef": 1.4278,
+              "estimatedUnitPrice": 11.75,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-101895",
+              "code": "101895",
+              "source": "SINAPI",
+              "description": "DISJUNTOR TERMOMAGNÉTICO TRIPOLAR, CORRENTE NOMINAL DE 125A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+              "unit": "UN",
+              "baseCoef": 0.1298,
+              "estimatedUnitPrice": 403.54,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-seduc-e121",
+              "code": "SEDUC E 121",
+              "source": "PRÓPRIO",
+              "description": "REFLETOR SLIM LED 150W DE POTÊNCIA, BRANCO FRIO, 6500K, AUTOVOLT, MARCA G-LIGHT OU SIMILAR - REV 01",
+              "unit": "UN",
+              "baseCoef": 2.8556,
+              "estimatedUnitPrice": 151.24,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-sala-91928",
+              "code": "91928",
+              "source": "SINAPI",
+              "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 4 MM², ANTI-CHAMA 450/750 V, PARA CIRCUITOS TERMINAIS DE CLIMATIZAÇÃO. AF_03/2023",
+              "unit": "M",
+              "baseCoef": 778.8,
+              "estimatedUnitPrice": 5.51,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-93655",
+              "code": "93655",
+              "source": "SINAPI",
+              "description": "DISJUNTOR MONOPOLAR TIPO DIN, CORRENTE NOMINAL DE 20A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+              "unit": "UN",
+              "baseCoef": 4.4132,
+              "estimatedUnitPrice": 12.92,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-97882",
+              "code": "97882",
+              "source": "SINAPI",
+              "description": "CAIXA ENTERRADA ELÉTRICA RETANGULAR, EM CONCRETO PRÉ-MOLDADO, FUNDO COM BRITA, DIMENSÕES INTERNAS: 0,4X0,4X0,4 M. AF_12/2020",
+              "unit": "UN",
+              "baseCoef": 0.3894,
+              "estimatedUnitPrice": 143.58,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-seduc-e95",
+              "code": "SEDUC E 95",
+              "source": "PRÓPRIO",
+              "description": "DISJUNTOR TRIFÁSICO TIPO DIN DE 175 A INSTALADO EM QUADRO.",
+              "unit": "UN",
+              "baseCoef": 0.1298,
+              "estimatedUnitPrice": 1150.79,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-92990",
+              "code": "92990",
+              "source": "SINAPI",
+              "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 70 MM², ANTI-CHAMA 0,6/1,0 KV, PARA REDE ENTERRADA DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA",
+              "unit": "M",
+              "baseCoef": 12.98,
+              "estimatedUnitPrice": 63.21,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-92986",
+              "code": "92986",
+              "source": "SINAPI",
+              "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 35 MM², ANTI-CHAMA 0,6/1,0 KV, PARA REDE ENTERRADA DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA",
+              "unit": "M",
+              "baseCoef": 6.49,
+              "estimatedUnitPrice": 31.47,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-92980",
+              "code": "92980",
+              "source": "SINAPI",
+              "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 10 MM², ANTI-CHAMA 0,6/1,0 KV, PARA DISTRIBUIÇÃO - FORNECIMENTO E INSTALAÇÃO. AF_12/2015",
+              "unit": "M",
+              "baseCoef": 2.596,
+              "estimatedUnitPrice": 8.65,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-93010",
+              "code": "93010",
+              "source": "SINAPI",
+              "description": "ELETRODUTO RÍGIDO ROSCÁVEL, PVC, DN 75 MM (2 1/2\"), PARA REDE ENTERRADA DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA. AF_12/2021",
+              "unit": "M",
+              "baseCoef": 2.596,
+              "estimatedUnitPrice": 33.15,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-96985",
+              "code": "96985",
+              "source": "SINAPI",
+              "description": "HASTE DE ATERRAMENTO 5/8 PARA SPDA - FORNECIMENTO E INSTALAÇÃO. AF_12/2017",
+              "unit": "UN",
+              "baseCoef": 0.3894,
+              "estimatedUnitPrice": 73.42,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-seduc-e118",
+              "code": "SEDUC E 118",
+              "source": "PRÓPRIO",
+              "description": "CORDOALHA DE COBRE NU 25 MM², NÃO ENTERRADA, COM ISOLADOR - FORNECIMENTO E INSTALAÇÃO. AF_12/2017",
+              "unit": "M",
+              "baseCoef": 6.49,
+              "estimatedUnitPrice": 72.11,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-93358-qgb",
+              "code": "93358-QGBT",
+              "source": "SINAPI",
+              "description": "ESCAVAÇÃO MANUAL DE VALA COM PROFUNDIDADE MENOR OU IGUAL A 1,30 M (REDE ELÉTRICA ENTERRADA). AF_02/2021",
+              "unit": "M3",
+              "baseCoef": 12.98,
+              "estimatedUnitPrice": 22.05,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-93382",
+              "code": "93382",
+              "source": "SINAPI",
+              "description": "REATERRO MANUAL DE VALAS COM COMPACTAÇÃO MECANIZADA. AF_04/2016",
+              "unit": "M3",
+              "baseCoef": 12.98,
+              "estimatedUnitPrice": 40.71,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-seduc-e110",
+              "code": "SEDUC E 110",
+              "source": "PRÓPRIO",
+              "description": "INSTALAÇÃO DE DPS 45KA CLASSE II, INCLUSO DISJUNTOR DE PROTEÇÃO",
+              "unit": "UN",
+              "baseCoef": 1.0384,
+              "estimatedUnitPrice": 104.49,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-9324",
+              "code": "9324",
+              "source": "SEINFRA",
+              "description": "Disjuntor termomagnético tripolar 150 A, com caixa moldada 10KA (ORSE)",
+              "unit": "UN",
+              "baseCoef": 0.1298,
+              "estimatedUnitPrice": 323.61,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-10064",
+              "code": "10064",
+              "source": "SEINFRA",
+              "description": "Disjuntor termomagnético tripolar 125 A com caixa moldada 10 Ka (ORSE)",
+              "unit": "UN",
+              "baseCoef": 0.1298,
+              "estimatedUnitPrice": 250.75,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-12044",
+              "code": "12044",
+              "source": "SEINFRA",
+              "description": "Cabo cobre flexível, não halogenado, 95,0mm2 - 0,6/1KV / 90º (ORSE)",
+              "unit": "M",
+              "baseCoef": 51.92,
+              "estimatedUnitPrice": 67.95,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-sala-101508",
+              "code": "101508",
+              "source": "SINAPI",
+              "description": "ENTRADA DE ENERGIA ELÉTRICA, AÉREA, TRIFÁSICA, COM CAIXA DE SOBREPOR, CABO DE 35 MM2 E DISJUNTOR DIN 50A. AF_07/2020",
+              "unit": "UN",
+              "baseCoef": 0.1298,
+              "estimatedUnitPrice": 1943.75,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dem-lab-info",
+      "type": "MODULAR",
+      "title": "Laboratório de Informática (Padrão SEDUC/UGERF)",
+      "subtitle": "Bancadas (3 ou 4 PCs), Lógica RJ45, Elétrica, Climatização, Revestimento 10x10, Esquadrias",
+      "iconName": "Laptop",
+      "baseUnit": "UN",
+      "defaultAreaM2": 56,
+      "subItems": [
+        {
+          "id": "sub-lab-bancadas-3pc",
+          "title": "Bancadas em Granito p/ 3 Computadores (un -> Converte p/ m² + Alvenaria h=75cm)",
+          "unit": "un",
+          "defaultQty": 6,
+          "services": [
+            {
+              "id": "srv-lab-102253",
+              "code": "102253",
+              "source": "SINAPI",
+              "description": "BANCADA EM GRANITO CINZA ANDORINHA, ESP.= 2CM, INCLUSIVE FIXAÇÃO E FERRAGENS",
+              "unit": "M2",
+              "baseCoef": 2.464,
+              "estimatedUnitPrice": 913.52,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-103332",
+              "code": "103332",
+              "source": "SINAPI",
+              "description": "ALVENARIA DE VEDAÇÃO DE BLOCOS CERÂMICOS FURADOS NA HORIZONTAL DE 9X14X19 CM (ESPESSURA 9 CM)",
+              "unit": "M2",
+              "baseCoef": 1.3125,
+              "estimatedUnitPrice": 117.84,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-s26",
+              "code": "S2.6",
+              "source": "SINAPI",
+              "description": "REMOÇÃO DE BANCADA DE GRANITO, MÁRMORE OU MARMORITE",
+              "unit": "M2",
+              "baseCoef": 3,
+              "estimatedUnitPrice": 28.65,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-bancadas-4pc",
+          "title": "Bancadas em Granito p/ 4 Computadores (un -> Converte p/ m² + Alvenaria h=75cm)",
+          "unit": "un",
+          "defaultQty": 0,
+          "services": [
+            {
+              "id": "srv-lab4-102253",
+              "code": "102253",
+              "source": "SINAPI",
+              "description": "BANCADA EM GRANITO CINZA ANDORINHA, ESP.= 2CM (Bancada p/ 4 Computadores)",
+              "unit": "M2",
+              "baseCoef": 3.08,
+              "estimatedUnitPrice": 913.52,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab4-103332",
+              "code": "103332",
+              "source": "SINAPI",
+              "description": "ALVENARIA DE VEDAÇÃO DE BLOCOS CERÂMICOS 9X14X19 CM (Apoio Bancada 4 PCs - h=75cm)",
+              "unit": "M2",
+              "baseCoef": 1.75,
+              "estimatedUnitPrice": 117.84,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab4-s26",
+              "code": "S2.6",
+              "source": "SINAPI",
+              "description": "REMOÇÃO DE BANCADA DE GRANITO, MÁRMORE OU MARMORITE",
+              "unit": "M2",
+              "baseCoef": 3,
+              "estimatedUnitPrice": 28.65,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-logica-rj45",
+          "title": "Pontos de Rede Lógica RJ45 Cat6 (Máquinas / Computadores)",
+          "unit": "un",
+          "defaultQty": 35,
+          "services": [
+            {
+              "id": "srv-lab-98307",
+              "code": "98307",
+              "source": "SINAPI",
+              "description": "TOMADA DE REDE RJ45 - FORNECIMENTO E INSTALAÇÃO. AF_11/2019",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 50.47,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-91940-log",
+              "code": "91940",
+              "source": "SINAPI",
+              "description": "CAIXA RETANGULAR 4\" X 2\" MÉDIA (1,30 M DO PISO), PVC, INSTALADA EM PAREDE (REDE LÓGICA)",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 17.66,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-98297",
+              "code": "98297",
+              "source": "SINAPI",
+              "description": "CABO ELETRÔNICO CATEGORIA 6, INSTALADO EM EDIFICAÇÃO INSTITUCIONAL FORNECIMENTO E INSTALAÇÃO. AF_11/2019",
+              "unit": "M",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 11.22,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-91854-log",
+              "code": "91854",
+              "source": "SINAPI",
+              "description": "ELETRODUTO FLEXÍVEL CORRUGADO, PVC, DN 25 MM (3/4\"), PARA CIRCUITOS DE CABEAMENTO ESTRUTURADO",
+              "unit": "M",
+              "baseCoef": 7.57142857,
+              "estimatedUnitPrice": 9.52,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-tomadas-eletrica",
+          "title": "Pontos Elétricos de Tomadas p/ Computadores",
+          "unit": "un",
+          "defaultQty": 35,
+          "services": [
+            {
+              "id": "srv-lab-91940-el",
+              "code": "91940",
+              "source": "SINAPI",
+              "description": "CAIXA RETANGULAR 4\" X 2\" MÉDIA (1,30 M DO PISO), PVC, INSTALADA EM PAREDE - FORNECIMENTO E INSTALAÇÃO",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 17.66,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-91926",
+              "code": "91926",
+              "source": "SINAPI",
+              "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 2,5 MM², ANTI-CHAMA 450/750 V, PARA CIRCUITOS TERMINAIS",
+              "unit": "M",
+              "baseCoef": 7.57142857,
+              "estimatedUnitPrice": 4.63,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-91959",
+              "code": "91959",
+              "source": "SINAPI",
+              "description": "INTERRUPTOR SIMPLES (2 MÓDULOS), 10A/250V, INCLUINDO SUPORTE E PLACA",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 47.12,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-91996",
+              "code": "91996",
+              "source": "SINAPI",
+              "description": "TOMADA MÉDIA DE EMBUTIR (1 MÓDULO), 2P+T 10 A, INCLUINDO SUPORTE E PLACA",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 36.19,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-91992-el",
+              "code": "91992",
+              "source": "SINAPI",
+              "description": "TOMADA ALTA DE EMBUTIR (1 MÓDULO), 2P+T 10 A, INCLUINDO SUPORTE E PLACA",
+              "unit": "UN",
+              "baseCoef": 0.14285714,
+              "estimatedUnitPrice": 45.99,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-92000",
+              "code": "92000",
+              "source": "SINAPI",
+              "description": "TOMADA BAIXA DE EMBUTIR (1 MÓDULO), 2P+T 10 A, INCLUINDO SUPORTE E PLACA",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 32.4,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-91854-el",
+              "code": "91854",
+              "source": "SINAPI",
+              "description": "ELETRODUTO FLEXÍVEL CORRUGADO, PVC, DN 25 MM (3/4\"), PARA CIRCUITOS TERMINAIS",
+              "unit": "M",
+              "baseCoef": 7.65714286,
+              "estimatedUnitPrice": 9.52,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-93653",
+              "code": "93653",
+              "source": "SINAPI",
+              "description": "DISJUNTOR MONOPOLAR TIPO DIN, CORRENTE NOMINAL DE 10A - FORNECIMENTO E INSTALAÇÃO",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 11.35,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-climatizacao",
+          "title": "Circuitos Elétricos para Climatização (Ar-Condicionado)",
+          "unit": "un",
+          "defaultQty": 35,
+          "services": [
+            {
+              "id": "srv-lab-91928",
+              "code": "91928",
+              "source": "SINAPI",
+              "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 4 MM², ANTI-CHAMA 450/750 V, PARA CIRCUITOS TERMINAIS",
+              "unit": "M",
+              "baseCoef": 7.57142857,
+              "estimatedUnitPrice": 7.21,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-91939",
+              "code": "91939",
+              "source": "SINAPI",
+              "description": "CAIXA RETANGULAR 4\" X 2\" ALTA (2,00 M DO PISO), PVC, INSTALADA EM PAREDE",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 30.75,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-91992-clim",
+              "code": "91992",
+              "source": "SINAPI",
+              "description": "TOMADA ALTA DE EMBUTIR (1 MÓDULO), 2P+T 10 A PARA CLIMATIZAÇÃO",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 45.99,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-lab-93655",
+              "code": "93655",
+              "source": "SINAPI",
+              "description": "DISJUNTOR MONOPOLAR TIPO DIN, CORRENTE NOMINAL DE 20A - FORNECIMENTO E INSTALAÇÃO",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 13.3,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-iluminacao",
+          "title": "Luminárias LED de Sobrepor 60x60cm (un)",
+          "unit": "un",
+          "defaultQty": 9,
+          "services": [
+            {
+              "id": "srv-lab-105543",
+              "code": "105543",
+              "source": "SINAPI",
+              "description": "LUMINÁRIA LED DE SOBREPOR - QUADRADA *60X60*CM, INCLUSO DRIVER - FORNECIMENTO E INSTALAÇÃO. AF_09/2024",
+              "unit": "UN",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 38.81,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-revestimento",
+          "title": "Revestimento Interno Cerâmico 10x10cm Padrão SEDUC (m²)",
+          "unit": "m²",
+          "defaultQty": 148,
+          "services": [
+            {
+              "id": "srv-lab-87528",
+              "code": "87528",
+              "source": "SINAPI",
+              "description": "MASSA ÚNICA, PARA RECEBIMENTO DE PINTURA, EM ARGAMASSA TRAÇO 1:2:8, PREPARO MECÂNICO COM BETONEIRA 400L, ESPESSURA DE 20MM",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 36.69,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-lab-s91",
+              "code": "S9.1",
+              "source": "SEINFRA",
+              "description": "REVESTIMENTO CERÂMICO ESMALTADO 10X10CM PARA PAREDE, APLICADO COM ARGAMASSA INDUSTRIALIZADA AC-II E REJUNTADO",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 62.54,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-pintura",
+          "title": "Pintura Interna Látex Acrílica Premium + Selador (m²)",
+          "unit": "m²",
+          "defaultQty": 96.6,
+          "services": [
+            {
+              "id": "srv-lab-88485",
+              "code": "88485",
+              "source": "SINAPI",
+              "description": "FUNDO SELADOR ACRÍLICO, APLICAÇÃO MANUAL EM PAREDE, UMA DEMÃO. AF_04/2023",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 4.25,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-lab-88489",
+              "code": "88489",
+              "source": "SINAPI",
+              "description": "PINTURA LÁTEX ACRÍLICA PREMIUM, APLICAÇÃO MANUAL EM PAREDES, DUAS DEMÃOS. AF_04/2023",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 12.19,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-janelas",
+          "title": "Quantidade de Janelas de Alumínio 2 Folhas (un -> Converte p/ m²)",
+          "unit": "un",
+          "defaultQty": 4,
+          "services": [
+            {
+              "id": "srv-lab-97645",
+              "code": "97645",
+              "source": "SINAPI",
+              "description": "REMOÇÃO DE JANELAS, DE FORMA MANUAL, SEM REAPROVEITAMENTO. AF_12/2017",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 24.9,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-lab-94570",
+              "code": "94570",
+              "source": "SINAPI",
+              "description": "JANELA DE ALUMÍNIO DE CORRER COM 2 FOLHAS PARA VIDROS, COM VIDROS, BATENTE E FERRAGENS",
+              "unit": "M2",
+              "baseCoef": 2.16,
+              "estimatedUnitPrice": 314.75,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-portas-esquadrias",
+          "title": "Porta de Ferro Grade/Chapa + Fechaduras + Pintura Esmalte (un)",
+          "unit": "un",
+          "defaultQty": 1,
+          "services": [
+            {
+              "id": "srv-lab-97644",
+              "code": "97644",
+              "source": "SINAPI",
+              "description": "REMOÇÃO DE PORTAS, DE FORMA MANUAL, SEM REAPROVEITAMENTO. AF_12/2017",
+              "unit": "M2",
+              "baseCoef": 2,
+              "estimatedUnitPrice": 9.64,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-lab-100701",
+              "code": "100701",
+              "source": "SINAPI",
+              "description": "PORTA DE FERRO, DE ABRIR, TIPO GRADE COM CHAPA, COM GUARNIÇÕES. AF_12/2019",
+              "unit": "M2",
+              "baseCoef": 3.36,
+              "estimatedUnitPrice": 415.29,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-lab-90830",
+              "code": "90830",
+              "source": "SINAPI",
+              "description": "FECHADURA DE EMBUTIR COM CILINDRO, EXTERNA, COMPLETA, ACABAMENTO PADRÃO MÉDIO",
+              "unit": "UN",
+              "baseCoef": 4,
+              "estimatedUnitPrice": 179.5,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-lab-100762",
+              "code": "100762",
+              "source": "SINAPI",
+              "description": "PINTURA COM TINTA ALQUÍDICA DE ACABAMENTO (ESMALTE SINTÉTICO FOSCO) SOBRE SUPERFÍCIES METÁLICAS (02 DEMÃOS)",
+              "unit": "M2",
+              "baseCoef": 4.2,
+              "estimatedUnitPrice": 49.76,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-forro-limpeza",
+          "title": "Recuperação / Limpeza de Forro, Demolições e Entulho da Sala (un)",
+          "unit": "un",
+          "defaultQty": 1,
+          "services": [
+            {
+              "id": "srv-lab-97640",
+              "code": "97640",
+              "source": "SINAPI",
+              "description": "REMOÇÃO DE FORROS DE DRYWALL, PVC E FIBROMINERAL, DE FORMA MANUAL, SEM REAPROVEITAMENTO",
+              "unit": "M2",
+              "baseCoef": 51,
+              "estimatedUnitPrice": 1.91,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-lab-97622",
+              "code": "97622",
+              "source": "SINAPI",
+              "description": "DEMOLIÇÃO DE ALVENARIA DE BLOCO FURADO, DE FORMA MANUAL, SEM REAPROVEITAMENTO",
+              "unit": "M3",
+              "baseCoef": 5.6,
+              "estimatedUnitPrice": 57.35,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-lab-100981",
+              "code": "100981",
+              "source": "SINAPI",
+              "description": "CARGA, MANOBRA E DESCARGA DE ENTULHO EM CAMINHÃO BASCULANTE 6 M³",
+              "unit": "M3",
+              "baseCoef": 10.8,
+              "estimatedUnitPrice": 9.44,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-lab-97914",
+              "code": "97914",
+              "source": "SINAPI",
+              "description": "TRANSPORTE COM CAMINHÃO BASCULANTE DE 6 M³, EM VIA URBANA PAVIMENTADA, DMT ATÉ 30 KM",
+              "unit": "M3XKM",
+              "baseCoef": 270,
+              "estimatedUnitPrice": 2.98,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-lab-99826",
+              "code": "99826",
+              "source": "SINAPI",
+              "description": "LIMPEZA DE FORRO REMOVÍVEL COM PANO ÚMIDO. AF_04/2019",
+              "unit": "M2",
+              "baseCoef": 56,
+              "estimatedUnitPrice": 1.56,
+              "wbsStage": "COBERTA_FORRO",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-lab-99803",
+              "code": "99803",
+              "source": "SINAPI",
+              "description": "LIMPEZA GERAL E FINAL DA OBRA",
+              "unit": "M2",
+              "baseCoef": 524,
+              "estimatedUnitPrice": 2.1,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-forro-novo-pvc",
+          "title": "Opcional: Forro Novo em Réguas de PVC Frisado c/ Estrutura (m²)",
+          "unit": "m²",
+          "defaultQty": 0,
+          "services": [
+            {
+              "id": "srv-lab-96116",
+              "code": "96116",
+              "source": "SINAPI",
+              "description": "FORRO EM RÉGUAS DE PVC, FRISADO, PARA AMBIENTES COMERCIAIS, INCLUSIVE ESTRUTURA BIDIRECIONAL DE FIXAÇÃO. AF_08/2023",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 62.81,
+              "wbsStage": "COBERTA_FORRO",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-lab-piso-novo",
+          "title": "Opcional: Piso Cerâmico Esmaltado Extra 45x45cm + Emassamento Parede (m²)",
+          "unit": "m²",
+          "defaultQty": 0,
+          "services": [
+            {
+              "id": "srv-lab-87251",
+              "code": "87251",
+              "source": "SINAPI",
+              "description": "REVESTIMENTO CERÂMICO PARA PISO COM PLACAS TIPO ESMALTADA EXTRA DE DIMENSÕES 45X45 CM",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 57.82,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            },
+            {
+              "id": "srv-lab-88495",
+              "code": "88495",
+              "source": "SINAPI",
+              "description": "EMASSAMENTO COM MASSA LÁTEX, APLICAÇÃO EM PAREDE, UMA DEMÃO, LIXAMENTO MANUAL. AF_04/2023",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 10.87,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dem-caixa-dagua",
+      "type": "PACKAGE",
+      "title": "Caixa d'Água",
+      "subtitle": "Castelo D’água, Barrilete, Reservatório",
+      "iconName": "Warehouse",
+      "baseUnit": "UN",
+      "defaultAreaM2": 12,
+      "items": [
+        {
+          "id": "srv-121",
+          "code": "SINAPI-93358",
+          "source": "SINAPI",
+          "description": "ESCAVAÇÃO MECANIZADA DE VALAS PARA SAPATA DO CASTELO D ÁGUA",
+          "unit": "M3",
+          "baseCoef": 8.5,
+          "estimatedUnitPrice": 62.29,
+          "wbsStage": "PRELIMINARES",
+          "chronoGroup": "SERVICOS_PRELIMINARES"
+        },
+        {
+          "id": "srv-122",
+          "code": "SINAPI-96555",
+          "source": "SINAPI",
+          "description": "CONCRETO ARMADO FCK=25MPA EM PILARES E VIGAS DO RESERVATÓRIO ELEVADO",
+          "unit": "M3",
+          "baseCoef": 4.8,
+          "estimatedUnitPrice": 446.81,
+          "wbsStage": "ESTRUTURA_ALVENARIA",
+          "chronoGroup": "SERVICOS_DURANTE_OBRA"
+        },
+        {
+          "id": "srv-123",
+          "code": "SINAPI-89957",
+          "source": "SINAPI",
+          "description": "BARRILETE COMPLETO EM PVC SOLDÁVEL COM REGISTROS DE GAVETA E VÁLVULAS",
+          "unit": "UN",
+          "baseCoef": 1,
+          "estimatedUnitPrice": 890,
+          "wbsStage": "ESTRUTURA_ALVENARIA",
+          "chronoGroup": "SERVICOS_DURANTE_OBRA"
+        },
+        {
+          "id": "srv-124",
+          "code": "SINAPI-98557",
+          "source": "SINAPI",
+          "description": "IMPERMEABILIZAÇÃO DE RESERVATÓRIO COM ARGAMASSA POLIMÉRICA POTÁVEL",
+          "unit": "M2",
+          "baseCoef": 32,
+          "estimatedUnitPrice": 58.5,
+          "wbsStage": "ACABAMENTOS",
+          "chronoGroup": "ACABAMENTOS_POS_OBRA"
+        }
+      ]
+    },
+    {
+      "id": "dem-poco-tubular",
+      "type": "PACKAGE",
+      "title": "Perfuração de Poço",
+      "subtitle": "Perfuração, Revestimento, Bomba Submersa",
+      "iconName": "Hammer",
+      "baseUnit": "UN",
+      "defaultAreaM2": 10,
+      "items": [
+        {
+          "id": "srv-131",
+          "code": "SINAPI-99059",
+          "source": "SINAPI",
+          "description": "MOBILIZAÇÃO E DESMOBILIZAÇÃO DE SONDA PERFURATRIZ ROTO-PNEUMÁTICA",
+          "unit": "UN",
+          "baseCoef": 1,
+          "estimatedUnitPrice": 2200,
+          "wbsStage": "PRELIMINARES",
+          "chronoGroup": "SERVICOS_PRELIMINARES"
+        },
+        {
+          "id": "srv-132",
+          "code": "SINAPI-93358",
+          "source": "SINAPI",
+          "description": "PERFURAÇÃO EM ROCHA/SEDIMENTO PROFUNDIDADE ATÉ 60 METROS",
+          "unit": "M",
+          "baseCoef": 50,
+          "estimatedUnitPrice": 185,
+          "wbsStage": "ESTRUTURA_ALVENARIA",
+          "chronoGroup": "SERVICOS_DURANTE_OBRA"
+        },
+        {
+          "id": "srv-133",
+          "code": "SINAPI-89957",
+          "source": "SINAPI",
+          "description": "INSTALAÇÃO DE CONJUNTO MOTO-BOMBA SUBMERSA INOX COM QUADRO AUTOMATIZADO",
+          "unit": "UN",
+          "baseCoef": 1,
+          "estimatedUnitPrice": 3450,
+          "wbsStage": "ACABAMENTOS",
+          "chronoGroup": "ACABAMENTOS_POS_OBRA"
+        }
+      ]
+    },
+    {
+      "id": "dem-pintura-modular",
+      "type": "MODULAR",
+      "title": "Pintura",
+      "subtitle": "Paredes, Fachadas, Esquadrias, Calçadas",
+      "iconName": "PaintRoller",
+      "baseUnit": "UN",
+      "subItems": [
+        {
+          "id": "sub-salas-aula",
+          "title": "Salas de Aula",
+          "unit": "un",
+          "defaultQty": 2,
+          "services": [
+            {
+              "id": "srv-p-01",
+              "code": "SINAPI-99814",
+              "source": "SINAPI",
+              "description": "LIMPEZA E RASPAGEM DE SUPERFÍCIE INTERNA COM LIXAMENTO",
+              "unit": "M2",
+              "baseCoef": 96,
+              "estimatedUnitPrice": 6.4,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-p-02",
+              "code": "SINAPI-88485",
+              "source": "SINAPI",
+              "description": "APLICAÇÃO DE FUNDO SELADOR ACRÍLICO EM PAREDES INTERNAS",
+              "unit": "M2",
+              "baseCoef": 96,
+              "estimatedUnitPrice": 5.8,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            },
+            {
+              "id": "srv-p-03",
+              "code": "SINAPI-88489",
+              "source": "SINAPI",
+              "description": "PINTURA LÁTEX ACRÍLICA EM PAREDES DUAS DEMÃOS",
+              "unit": "M2",
+              "baseCoef": 96,
+              "estimatedUnitPrice": 15,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-refeitorio",
+          "title": "Refeitório",
+          "unit": "un",
+          "defaultQty": 1,
+          "services": [
+            {
+              "id": "srv-p-04",
+              "code": "SINAPI-99814",
+              "source": "SINAPI",
+              "description": "LIMPEZA E PREPARAÇÃO DE PAREDES DE REFEITÓRIO COM LIXAMENTO",
+              "unit": "M2",
+              "baseCoef": 140,
+              "estimatedUnitPrice": 6.4,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-p-05",
+              "code": "SINAPI-88489",
+              "source": "SINAPI",
+              "description": "PINTURA LÁTEX ACRÍLICA LAVÁVEL EM REFEITÓRIO DUAS DEMÃOS",
+              "unit": "M2",
+              "baseCoef": 140,
+              "estimatedUnitPrice": 16.5,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-patio",
+          "title": "Pátio",
+          "unit": "un",
+          "defaultQty": 1,
+          "services": [
+            {
+              "id": "srv-p-06",
+              "code": "SINAPI-88489",
+              "source": "SINAPI",
+              "description": "PINTURA EM MUROS E PILARES DO PÁTIO COM TINTA ACRÍLICA EXTERNA",
+              "unit": "M2",
+              "baseCoef": 110,
+              "estimatedUnitPrice": 17.2,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-calcada",
+          "title": "Calçada",
+          "unit": "m",
+          "defaultQty": 35,
+          "services": [
+            {
+              "id": "srv-p-07",
+              "code": "SINAPI-88489",
+              "source": "SINAPI",
+              "description": "PINTURA DE MEIO-FIO E SINALIZAÇÃO DE CALÇADA COM TINTA REFLETIVA",
+              "unit": "M",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 8.5,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-portas",
+          "title": "Portas",
+          "unit": "un",
+          "defaultQty": 4,
+          "services": [
+            {
+              "id": "srv-p-08",
+              "code": "SINAPI-88489",
+              "source": "SINAPI",
+              "description": "PINTURA ESMALTE SINTÉTICO EM PORTAS DE MADEIRA/AÇO, 2 DEMÃOS",
+              "unit": "M2",
+              "baseCoef": 4.2,
+              "estimatedUnitPrice": 34,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-janelas",
+          "title": "Janelas",
+          "unit": "un",
+          "defaultQty": 8,
+          "services": [
+            {
+              "id": "srv-p-09",
+              "code": "SINAPI-88489",
+              "source": "SINAPI",
+              "description": "PINTURA ESMALTE EM GRADIS E ESQUADRIAS METÁLICAS DE JANELA",
+              "unit": "M2",
+              "baseCoef": 2.5,
+              "estimatedUnitPrice": 32.5,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dem-retelhamento-modular",
+      "type": "MODULAR",
+      "title": "Retelhamento",
+      "subtitle": "Cerâmica, Metálica, Calhas, Rufos",
+      "iconName": "Warehouse",
+      "baseUnit": "m²",
+      "subItems": [
+        {
+          "id": "sub-telha-ceramica",
+          "title": "Telha Cerâmica Colonial",
+          "unit": "m²",
+          "defaultQty": 80,
+          "services": [
+            {
+              "id": "srv-r-01",
+              "code": "SINAPI-97631",
+              "source": "SINAPI",
+              "description": "REMOÇÃO DE TELHAS QUEBRADAS E REVISÃO DE ENGRADAMENTO",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 14.2,
+              "wbsStage": "PRELIMINARES",
+              "chronoGroup": "SERVICOS_PRELIMINARES"
+            },
+            {
+              "id": "srv-r-02",
+              "code": "SINAPI-94228",
+              "source": "SINAPI",
+              "description": "TELHAMENTO COM TELHA CERÂMICA CAPA-CANAL COLONIAL NOVA",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 38.4,
+              "wbsStage": "COBERTA_FORRO",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-telha-metalica",
+          "title": "Telha Termoacústica (Sanduíche)",
+          "unit": "m²",
+          "defaultQty": 60,
+          "services": [
+            {
+              "id": "srv-r-03",
+              "code": "SINAPI-94213",
+              "source": "SINAPI",
+              "description": "TELHAMENTO COM TELHA METÁLICA TERMOACÚSTICA SANDUÍCHE",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 132.4,
+              "wbsStage": "COBERTA_FORRO",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-calhas-rufos",
+          "title": "Calhas e Rufos Metálicos",
+          "unit": "m",
+          "defaultQty": 25,
+          "services": [
+            {
+              "id": "srv-r-04",
+              "code": "SINAPI-94229",
+              "source": "SINAPI",
+              "description": "CALHA EM CHAPA DE AÇO GALVANIZADO DESENVOLVIMENTO 50 CM",
+              "unit": "M",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 98.5,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dem-forro-modular",
+      "type": "MODULAR",
+      "title": "Forro",
+      "subtitle": "PVC Frisado, Drywall RU, Mineral",
+      "iconName": "LayoutGrid",
+      "baseUnit": "m²",
+      "subItems": [
+        {
+          "id": "sub-forro-pvc",
+          "title": "Forro PVC Frisado",
+          "unit": "m²",
+          "defaultQty": 60,
+          "services": [
+            {
+              "id": "srv-f-01",
+              "code": "SINAPI-96111",
+              "source": "SINAPI",
+              "description": "FORRO EM RÉGUAS DE PVC FRISADO COM ESTRUTURA METÁLICA GALVANIZADA",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 55.58,
+              "wbsStage": "COBERTA_FORRO",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-forro-gesso",
+          "title": "Forro Gesso Acartonado (Drywall)",
+          "unit": "m²",
+          "defaultQty": 30,
+          "services": [
+            {
+              "id": "srv-f-02",
+              "code": "SINAPI-96486",
+              "source": "SINAPI",
+              "description": "FORRO DE GESSO ACARTONADO RESISTENTE A UMIDADE (RU) ESTRUTURADO",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 92.4,
+              "wbsStage": "COBERTA_FORRO",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dem-piso-modular",
+      "type": "MODULAR",
+      "title": "Piso",
+      "subtitle": "Cerâmico PEI IV/V, Intertravado, Contrapiso",
+      "iconName": "LayoutGrid",
+      "baseUnit": "m²",
+      "subItems": [
+        {
+          "id": "sub-piso-ceramico",
+          "title": "Piso Cerâmico PEI IV/V",
+          "unit": "m²",
+          "defaultQty": 50,
+          "services": [
+            {
+              "id": "srv-pi-01",
+              "code": "SINAPI-87263",
+              "source": "SINAPI",
+              "description": "REVESTIMENTO CERÂMICO PARA PISO COM PLACAS ESMALTADAS 45X45 CM",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 68.75,
+              "wbsStage": "ACABAMENTOS",
+              "chronoGroup": "ACABAMENTOS_POS_OBRA"
+            }
+          ]
+        },
+        {
+          "id": "sub-piso-intertravado",
+          "title": "Piso Intertravado de Concreto",
+          "unit": "m²",
+          "defaultQty": 80,
+          "services": [
+            {
+              "id": "srv-pi-02",
+              "code": "SINAPI-94994",
+              "source": "SINAPI",
+              "description": "EXECUÇÃO DE PASSEIO EM PISO INTERTRAVADO RETANGULAR 20X10 ESP 6CM",
+              "unit": "M2",
+              "baseCoef": 1,
+              "estimatedUnitPrice": 78.6,
+              "wbsStage": "ESTRUTURA_ALVENARIA",
+              "chronoGroup": "SERVICOS_DURANTE_OBRA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "id": "cnt-seduc-lote1-cerrados",
+      "name": "Planilha Oficial SEDUC/UGERF - Lote I Cerrados (SINAPI/PI AGO/2023 • BDI 20,34%)",
+      "ataNumber": "LOTE I - CERRADOS • MANUTENÇÃO PREDIAL SEDUC/PI",
+      "agency": "Governo do Estado do Piauí • SEDUC / UGERF",
+      "bdiPercent": 20.34,
+      "taxRegime": "DESONERADO",
+      "createdAt": "2026-11-21",
+      "templateFileName": "Planilha_Manutencao_Lote_I_Cerrados_SEDUC_PI.xlsx",
+      "priceTable": [
+        {
+          "code": "98524",
+          "source": "SINAPI/PI",
+          "description": "LIMPEZA MANUAL DE VEGETAÇÃO EM TERRENO COM ENXADA. AF_05/2018",
+          "unit": "M2",
+          "unitPrice": 2.63,
+          "disciplina": "PRELIMINARES",
+          "tags_universais": [
+            "LIMPEZA",
+            "TERRENO",
+            "VEGETACAO"
+          ]
+        },
+        {
+          "code": "S21.17",
+          "source": "SEDUC/PI",
+          "description": "CARGA MANUAL DE ENTULHO EM CAMINHÃO BASCULANTE 6 M3",
+          "unit": "M3",
+          "unitPrice": 13.02,
+          "disciplina": "PRELIMINARES",
+          "tags_universais": [
+            "ENTULHO",
+            "CARGA",
+            "CAMINHAO"
+          ]
+        },
+        {
+          "code": "97914",
+          "source": "SINAPI/PI",
+          "description": "TRANSPORTE COM CAMINHÃO BASCULANTE DE 6 M³, EM VIA URBANA PAVIMENTADA, DMT ATÉ 30 KM (UNIDADE: M3XKM). AF_07/2020",
+          "unit": "M3XKM",
+          "unitPrice": 2.4,
+          "disciplina": "PRELIMINARES",
+          "tags_universais": [
+            "TRANSPORTE",
+            "ENTULHO"
+          ]
+        },
+        {
+          "code": "93358",
+          "source": "SINAPI/PI",
+          "description": "ESCAVAÇÃO MANUAL DE VALA COM PROFUNDIDADE MENOR OU IGUAL A 1,30 M. AF_02/2021",
+          "unit": "M3",
+          "unitPrice": 71.56,
+          "disciplina": "MOVIMENTO_TERRA",
+          "tags_universais": [
+            "ESCAVACAO",
+            "VALA",
+            "FUNDACAO"
+          ]
+        },
+        {
+          "code": "S3.3",
+          "source": "SEDUC/PI",
+          "description": "ATERRO MANUAL DE CAIXÃO DE EDIFICAÇÃO COM SOLO ARGILO-ARENOSO E COMPACTAÇÃO MECANIZADA",
+          "unit": "M3",
+          "unitPrice": 72.23,
+          "disciplina": "MOVIMENTO_TERRA",
+          "tags_universais": [
+            "ATERRO",
+            "COMPACTACAO",
+            "FUNDACAO"
+          ]
+        },
+        {
+          "code": "101616",
+          "source": "SINAPI/PI",
+          "description": "PREPARO DE FUNDO DE VALA COM LARGURA MENOR QUE 1,5 M (ACERTO DO SOLO NATURAL). AF_08/2020",
+          "unit": "M2",
+          "unitPrice": 5.33,
+          "disciplina": "MOVIMENTO_TERRA",
+          "tags_universais": [
+            "PREPARO_VALA",
+            "FUNDACAO"
+          ]
+        },
+        {
+          "code": "S4.4",
+          "source": "SEDUC/PI",
+          "description": "EXECUÇÃO DE SAPATA EM CONCRETO ARMADO FCK = 20 MPA, EXCLUSIVE FORMAS.",
+          "unit": "M3",
+          "unitPrice": 1233.49,
+          "disciplina": "INFRAESTRUTURA",
+          "tags_universais": [
+            "SAPATA",
+            "CONCRETO_ARMADO",
+            "FUNDACAO"
+          ]
+        },
+        {
+          "code": "CP_5",
+          "source": "CP_PRÓPRIA",
+          "description": "PILAR DE FUNDAÇÃO EM CONCRETO ARMADO FCK = 20 MPA, COM FABRICAÇÃO, MONTAGEM E DESMONTAGEM DE FORMA EM MADEIRA COMPENSADA RESINADA E ESCORAMENTO DE FORMAS",
+          "unit": "M3",
+          "unitPrice": 2737.89,
+          "disciplina": "INFRAESTRUTURA",
+          "tags_universais": [
+            "PILAR_FUNDACAO",
+            "CONCRETO_ARMADO"
+          ]
+        },
+        {
+          "code": "S4.5",
+          "source": "SEDUC/PI",
+          "description": "VIGA BALDRAME EM CONCRETO ARMADO FCK = 20 MPA, FABRICAÇÃO, MONTAGEM E DESMONTAGEM DE FORMA EM MADEIRA COMPENSADA RESINADA, INCLUSIVE ESCORAMENTO.",
+          "unit": "M3",
+          "unitPrice": 2313.24,
+          "disciplina": "INFRAESTRUTURA",
+          "tags_universais": [
+            "VIGA_BALDRAME",
+            "FUNDACAO"
+          ]
+        },
+        {
+          "code": "S4.2",
+          "source": "SEDUC/PI",
+          "description": "ALVENARIA DE EMBASAMENTO EM TIJOLO CERÂMICO DE 06 FUROS (09X14X19CM), ESPESSURA DE 14CM, ASSENTADO COM ARGAMASSA TRAÇO 1:4 (CIMENTO E AREIA)",
+          "unit": "M3",
+          "unitPrice": 695.33,
+          "disciplina": "INFRAESTRUTURA",
+          "tags_universais": [
+            "ALVENARIA_EMBASAMENTO",
+            "FUNDACAO"
+          ]
+        },
+        {
+          "code": "S5.4",
+          "source": "SEDUC/PI",
+          "description": "PILAR EM CONCRETO ARMADO FCK = 20 MPA, FABRICAÇÃO, MONTAGEM E DESMONTAGEM DE FORMA EM MADEIRA COMPENSADA RESINADA, INCLUSIVE ESCORAMENTO.",
+          "unit": "M3",
+          "unitPrice": 2866.71,
+          "disciplina": "SUPERESTRUTURA",
+          "tags_universais": [
+            "PILAR",
+            "SUPERESTRUTURA",
+            "CONCRETO_ARMADO"
+          ]
+        },
+        {
+          "code": "93204",
+          "source": "SINAPI/PI",
+          "description": "CINTA DE AMARRAÇÃO DE ALVENARIA MOLDADA IN LOCO EM CONCRETO. AF_03/2016",
+          "unit": "M",
+          "unitPrice": 47.95,
+          "disciplina": "SUPERESTRUTURA",
+          "tags_universais": [
+            "CINTA_AMARRACAO",
+            "SUPERESTRUTURA"
+          ]
+        },
+        {
+          "code": "101964",
+          "source": "SINAPI/PI",
+          "description": "LAJE PRÉ-MOLDADA UNIDIRECIONAL, BIAPOIADA, PARA FORRO, ENCHIMENTO EM CERÂMICA, VIGOTA CONVENCIONAL, ALTURA TOTAL DA LAJE (ENCHIMENTO+CAPA) = (8+3). AF_11/2020_PA",
+          "unit": "M2",
+          "unitPrice": 149.48,
+          "disciplina": "SUPERESTRUTURA",
+          "tags_universais": [
+            "LAJE_PRE_MOLDADA",
+            "SUPERESTRUTURA"
+          ]
+        },
+        {
+          "code": "103332",
+          "source": "SINAPI/PI",
+          "description": "ALVENARIA DE VEDAÇÃO DE BLOCOS CERÂMICOS FURADOS NA HORIZONTAL DE 9X14X19 CM (ESPESSURA 9 CM) E ARGAMASSA DE ASSENTAMENTO COM PREPARO EM BETONEIRA. AF_12/2021",
+          "unit": "M2",
+          "unitPrice": 99.89,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "ALVENARIA",
+            "PAREDE",
+            "BLOCO_CERAMICO"
+          ]
+        },
+        {
+          "code": "93182",
+          "source": "SINAPI/PI",
+          "description": "VERGA PRÉ-MOLDADA PARA JANELAS COM ATÉ 1,5 M DE VÃO. AF_03/2016",
+          "unit": "M",
+          "unitPrice": 36.54,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "VERGA",
+            "JANELA"
+          ]
+        },
+        {
+          "code": "93194",
+          "source": "SINAPI/PI",
+          "description": "CONTRAVERGA PRÉ-MOLDADA PARA VÃOS DE ATÉ 1,5 M DE COMPRIMENTO. AF_03/2016",
+          "unit": "M",
+          "unitPrice": 35.94,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "CONTRAVERGA",
+            "JANELA"
+          ]
+        },
+        {
+          "code": "S21.6",
+          "source": "SEDUC/PI",
+          "description": "ESTRUTURA EM TUBO METALON DE 40X20MM PARA PLATIBANDA REVESTIDO EM ACM, EXCLUSIVE REVESTIMENTO ACM - FORNECIMENTO E INSTALAÇÃO",
+          "unit": "KG",
+          "unitPrice": 20.5,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "PLATIBANDA",
+            "METALON"
+          ]
+        },
+        {
+          "code": "CP_37",
+          "source": "CP_PRÓPRIA",
+          "description": "RETELHAMENTO C/ TELHA CERÂMICA ATE 20% NOVA",
+          "unit": "M2",
+          "unitPrice": 49.54,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "TELHA_CERAMICA",
+            "RETELHAMENTO"
+          ]
+        },
+        {
+          "code": "94228",
+          "source": "SINAPI/PI",
+          "description": "CALHA EM CHAPA DE AÇO GALVANIZADO NÚMERO 24, DESENVOLVIMENTO DE 50 CM, INCLUSO TRANSPORTE VERTICAL. AF_07/2019",
+          "unit": "M",
+          "unitPrice": 77.85,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "CALHA",
+            "COBERTURA"
+          ]
+        },
+        {
+          "code": "102234",
+          "source": "SINAPI/PI",
+          "description": "PINTURA IMUNIZANTE PARA MADEIRA, 2 DEMÃOS. AF_01/2021",
+          "unit": "M2",
+          "unitPrice": 23.44,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "PINTURA_IMUNIZANTE",
+            "MADEIRA",
+            "COBERTURA"
+          ]
+        },
+        {
+          "code": "96116",
+          "source": "SINAPI/PI",
+          "description": "FORRO EM RÉGUAS DE PVC, FRISADO, PARA AMBIENTES COMERCIAIS, INCLUSIVE ESTRUTURA BIDIRECIONAL DE FIXAÇÃO. AF_08/2023",
+          "unit": "M2",
+          "unitPrice": 54.78,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "FORRO_PVC",
+            "TETO"
+          ]
+        },
+        {
+          "code": "S8.5",
+          "source": "SEDUC/PI",
+          "description": "PORTA DE FERRO LISA OU PARA VIDROS EM CHAPA DUPLA DE AÇO MSG 14 (E=2,00MM). INCLUSIVE PINTURA DE PROTEÇÃO ANTICORROSIVA, BATENTES E FERRAGENS. EXCLUSIVE VIDROS.",
+          "unit": "M2",
+          "unitPrice": 365.77,
+          "disciplina": "ESQUADRIAS",
+          "tags_universais": [
+            "PORTA_FERRO",
+            "CHAPA_FERRO",
+            "ESQUADRIA"
+          ]
+        },
+        {
+          "code": "94570",
+          "source": "SINAPI/PI",
+          "description": "JANELA DE ALUMÍNIO DE CORRER COM 2 FOLHAS PARA VIDROS, COM VIDROS, BATENTE, ACABAMENTO COM ACETATO OU BRILHANTE E FERRAGENS. EXCLUSIVE ALIZAR E CONTRAMARCO. FORNECIMENTO E INSTALAÇÃO. AF_12/2019",
+          "unit": "M2",
+          "unitPrice": 283.34,
+          "disciplina": "ESQUADRIAS",
+          "tags_universais": [
+            "JANELA_ALUMINIO",
+            "VIDRO_2_FOLHAS",
+            "ESQUADRIA"
+          ]
+        },
+        {
+          "code": "100659",
+          "source": "SINAPI/PI",
+          "description": "ALIZAR DE 5X1,5CM PARA PORTA FIXADO COM PREGOS, PADRÃO MÉDIO - FORNECIMENTO E INSTALAÇÃO. AF_12/2019",
+          "unit": "M",
+          "unitPrice": 7.91,
+          "disciplina": "ESQUADRIAS",
+          "tags_universais": [
+            "ALIZAR",
+            "PORTA"
+          ]
+        },
+        {
+          "code": "87905",
+          "source": "SINAPI/PI",
+          "description": "CHAPISCO APLICADO EM ALVENARIA (COM PRESENÇA DE VÃOS) E ESTRUTURAS DE CONCRETO DE FACHADA, COM COLHER DE PEDREIRO. ARGAMASSA TRAÇO 1:3 COM PREPARO EM BETONEIRA 400L. AF_10/2022",
+          "unit": "M2",
+          "unitPrice": 6.98,
+          "disciplina": "REVESTIMENTO",
+          "tags_universais": [
+            "CHAPISCO",
+            "PAREDE"
+          ]
+        },
+        {
+          "code": "87775",
+          "source": "SINAPI/PI",
+          "description": "EMBOÇO OU MASSA ÚNICA EM ARGAMASSA TRAÇO 1:2:8, PREPARO MECÂNICO COM BETONEIRA 400 L, APLICADA MANUALMENTE EM PANOS DE FACHADA COM PRESENÇA DE VÃOS, ESPESSURA DE 25 MM. AF_08/2022",
+          "unit": "M2",
+          "unitPrice": 46.98,
+          "disciplina": "REVESTIMENTO",
+          "tags_universais": [
+            "EMBOCO",
+            "MASSA_UNICA",
+            "PAREDE"
+          ]
+        },
+        {
+          "code": "S9.1",
+          "source": "SEDUC/PI",
+          "description": "REVESTIMENTO CERÂMICO ESMALTADO 10X10CM PARA PAREDE, APLICADO COM ARGAMASSA INDUSTRIALIZADA AC-II E REJUNTADO",
+          "unit": "M2",
+          "unitPrice": 54.58,
+          "disciplina": "REVESTIMENTO",
+          "tags_universais": [
+            "REVESTIMENTO_CERAMICO",
+            "10X10",
+            "PAREDE_160M"
+          ]
+        },
+        {
+          "code": "87251",
+          "source": "SINAPI/PI",
+          "description": "REVESTIMENTO CERÂMICO PARA PISO COM PLACAS TIPO ESMALTADA EXTRA DE DIMENSÕES 45X45 CM APLICADA EM AMBIENTES DE ÁREA MAIOR QUE 10 M2. AF_02/2023_PE",
+          "unit": "M2",
+          "unitPrice": 53.94,
+          "disciplina": "PISO",
+          "tags_universais": [
+            "PISO_CERAMICO",
+            "45X45"
+          ]
+        },
+        {
+          "code": "S10.1",
+          "source": "SEDUC/PI",
+          "description": "PISO EM GRANILITE, ESP. 8MM, ACABAMENTO POLIDO, MODULAÇÃO COM JUNTAS PLÁSTICAS EM QUADROS DE 1,00X1,00M (POLIMENTO MECANIZADO)",
+          "unit": "M2",
+          "unitPrice": 83.69,
+          "disciplina": "PISO",
+          "tags_universais": [
+            "PISO_GRANILITE",
+            "ALTA_RESISTENCIA"
+          ]
+        },
+        {
+          "code": "S10.2",
+          "source": "SEDUC/PI",
+          "description": "POLIMENTO E FECHAMENTO DE FISSURAS DE PISO GRANILITE EXISTENTE",
+          "unit": "M2",
+          "unitPrice": 22.61,
+          "disciplina": "PISO",
+          "tags_universais": [
+            "POLIMENTO_GRANILITE",
+            "PISO"
+          ]
+        },
+        {
+          "code": "94990",
+          "source": "SINAPI/PI",
+          "description": "EXECUÇÃO DE PASSEIO (CALÇADA) OU PISO DE CONCRETO COM CONCRETO MOLDADO IN LOCO, FEITO EM OBRA, ACABAMENTO CONVENCIONAL, NÃO ARMADO. AF_08/2022",
+          "unit": "M3",
+          "unitPrice": 795.13,
+          "disciplina": "PISO",
+          "tags_universais": [
+            "CALCADA",
+            "PASSEIO_CONCRETO"
+          ]
+        },
+        {
+          "code": "98504",
+          "source": "SINAPI/PI",
+          "description": "PLANTIO DE GRAMA BATATAIS EM PLACAS. AF_05/2018",
+          "unit": "M2",
+          "unitPrice": 14.07,
+          "disciplina": "PISO",
+          "tags_universais": [
+            "GRAMA",
+            "PAISAGISMO"
+          ]
+        },
+        {
+          "code": "91941",
+          "source": "SINAPI/PI",
+          "description": "CAIXA RETANGULAR 4\" X 2\" BAIXA (0,30 M DO PISO), PVC, INSTALADA EM PAREDE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 9.56,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CAIXA_4X2_BAIXA",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "91940",
+          "source": "SINAPI/PI",
+          "description": "CAIXA RETANGULAR 4\" X 2\" MÉDIA (1,30 M DO PISO), PVC, INSTALADA EM PAREDE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 15.02,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CAIXA_4X2_MEDIA",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "91926",
+          "source": "SINAPI/PI",
+          "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 2,5 MM², ANTI-CHAMA 450/750 V, PARA CIRCUITOS TERMINAIS - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "M",
+          "unitPrice": 3.56,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CABO_2_5MM",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "92866",
+          "source": "SINAPI/PI",
+          "description": "CAIXA SEXTAVADA 3\" X 3\", METÁLICA, INSTALADA EM LAJE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 11.03,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CAIXA_OCTOGONAL",
+            "ILUMINACAO"
+          ]
+        },
+        {
+          "code": "91959",
+          "source": "SINAPI/PI",
+          "description": "INTERRUPTOR SIMPLES (2 MÓDULOS), 10A/250V, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 41.07,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "INTERRUPTOR_2M",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "91953",
+          "source": "SINAPI/PI",
+          "description": "INTERRUPTOR SIMPLES (1 MÓDULO), 10A/250V, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 26.84,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "INTERRUPTOR_1M",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "91967",
+          "source": "SINAPI/PI",
+          "description": "INTERRUPTOR SIMPLES (3 MÓDULOS), 10A/250V, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 55.31,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "INTERRUPTOR_3M",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "91996",
+          "source": "SINAPI/PI",
+          "description": "TOMADA MÉDIA DE EMBUTIR (1 MÓDULO), 2P+T 10 A, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 31.46,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "TOMADA_MEDIA",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "92000",
+          "source": "SINAPI/PI",
+          "description": "TOMADA BAIXA DE EMBUTIR (1 MÓDULO), 2P+T 10 A, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 28.24,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "TOMADA_BAIXA",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "seduc e 201",
+          "source": "COMP. PRÓPRIA",
+          "description": "LUMINÁRIA LÂMPADA TUBULAR LED 2X18 W",
+          "unit": "UN",
+          "unitPrice": 74.31,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "LUMINARIA_LED",
+            "TUBULAR_2X18W",
+            "ILUMINACAO"
+          ]
+        },
+        {
+          "code": "101880",
+          "source": "SINAPI/PI",
+          "description": "QUADRO DE DISTRIBUIÇÃO DE ENERGIA EM CHAPA DE AÇO GALVANIZADO, DE EMBUTIR, COM BARRAMENTO TRIFÁSICO, PARA 30 DISJUNTORES DIN 150A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+          "unit": "UN",
+          "unitPrice": 461.57,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "QUADRO_DISTRIBUICAO",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "91865",
+          "source": "SINAPI/PI",
+          "description": "ELETRODUTO RÍGIDO ROSCÁVEL, PVC, DN 40 MM (1 1/4\"), PARA CIRCUITOS TERMINAIS, INSTALADO EM FORRO - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "M",
+          "unitPrice": 16.3,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRODUTO_40MM",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "91871",
+          "source": "SINAPI/PI",
+          "description": "ELETRODUTO RÍGIDO ROSCÁVEL, PVC, DN 25 MM (3/4\"), PARA CIRCUITOS TERMINAIS, INSTALADO EM PAREDE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "M",
+          "unitPrice": 12.08,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRODUTO_25MM",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "91872",
+          "source": "SINAPI/PI",
+          "description": "ELETRODUTO RÍGIDO ROSCÁVEL, PVC, DN 32 MM (1\"), PARA CIRCUITOS TERMINAIS, INSTALADO EM PAREDE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "M",
+          "unitPrice": 15.49,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRODUTO_32MM",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "93653",
+          "source": "SINAPI/PI",
+          "description": "DISJUNTOR MONOPOLAR TIPO DIN, CORRENTE NOMINAL DE 10A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+          "unit": "UN",
+          "unitPrice": 11.22,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "DISJUNTOR_10A",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "SEDUC E 106",
+          "source": "COMP. PRÓPRIA",
+          "description": "INSTALAÇÃO DE DPS 20KA CLASSE II, INCLUSO DISJUNTOR DE PROTEÇÃO",
+          "unit": "UN",
+          "unitPrice": 72.7,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "DPS_20KA",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "93654",
+          "source": "SINAPI/PI",
+          "description": "DISJUNTOR MONOPOLAR TIPO DIN, CORRENTE NOMINAL DE 16A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+          "unit": "UN",
+          "unitPrice": 11.75,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "DISJUNTOR_16A",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "101895",
+          "source": "SINAPI/PI",
+          "description": "DISJUNTOR TERMOMAGNÉTICO TRIPOLAR , CORRENTE NOMINAL DE 125A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+          "unit": "UN",
+          "unitPrice": 403.54,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "DISJUNTOR_125A",
+            "ELETRICA"
+          ]
+        },
+        {
+          "code": "SEDUC E 121",
+          "source": "COMP. PRÓPRIA",
+          "description": "REFLETOR SLIM LED 150W DE POTÊNCIA, BRANCO FRIO, 6500K, AUTOVOLT, MARCA G-LIGHT OU SIMILAR - REV 01",
+          "unit": "UN",
+          "unitPrice": 151.24,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "REFLETOR_LED_150W",
+            "ILUMINACAO"
+          ]
+        },
+        {
+          "code": "91928",
+          "source": "SINAPI/PI",
+          "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 4 MM², ANTI-CHAMA 450/750 V, PARA CIRCUITOS TERMINAIS - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "M",
+          "unitPrice": 5.51,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CABO_4MM",
+            "CLIMATIZACAO"
+          ]
+        },
+        {
+          "code": "93655",
+          "source": "SINAPI/PI",
+          "description": "DISJUNTOR MONOPOLAR TIPO DIN, CORRENTE NOMINAL DE 20A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+          "unit": "UN",
+          "unitPrice": 12.92,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "DISJUNTOR_20A",
+            "CLIMATIZACAO"
+          ]
+        },
+        {
+          "code": "97882",
+          "source": "SINAPI/PI",
+          "description": "CAIXA ENTERRADA ELÉTRICA RETANGULAR, EM CONCRETO PRÉ-MOLDADO, FUNDO COM BRITA, DIMENSÕES INTERNAS: 0,4X0,4X0,4 M. AF_12/2020",
+          "unit": "UN",
+          "unitPrice": 143.58,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CAIXA_PASSAGEM_ENTERRADA",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "SEDUC E 95",
+          "source": "COMP. PRÓPRIA",
+          "description": "DISJUNTOR TRIFÁSICO TPO DIN DE 175 A INSTALADO EM QUADRO.",
+          "unit": "UN",
+          "unitPrice": 1150.79,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "DISJUNTOR_175A",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "92990",
+          "source": "SINAPI/PI",
+          "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 70 MM², ANTI-CHAMA 0,6/1,0 KV, PARA REDE ENTERRADA DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA - FORNECIMENTO E INSTALAÇÃO. AF_12/2021",
+          "unit": "M",
+          "unitPrice": 63.21,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CABO_70MM",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "92986",
+          "source": "SINAPI/PI",
+          "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 35 MM², ANTI-CHAMA 0,6/1,0 KV, PARA REDE ENTERRADA DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA - FORNECIMENTO E INSTALAÇÃO. AF_12/2021",
+          "unit": "M",
+          "unitPrice": 31.47,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CABO_35MM",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "92980",
+          "source": "SINAPI/PI",
+          "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 10 MM², ANTI-CHAMA 0,6/1,0 KV, PARA DISTRIBUIÇÃO - FORNECIMENTO E INSTALAÇÃO. AF_12/2015",
+          "unit": "M",
+          "unitPrice": 8.65,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CABO_10MM",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "93010",
+          "source": "SINAPI/PI",
+          "description": "ELETRODUTO RÍGIDO ROSCÁVEL, PVC, DN 75 MM (2 1/2\"), PARA REDE ENTERRADA DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA - FORNECIMENTO E INSTALAÇÃO. AF_12/2021",
+          "unit": "M",
+          "unitPrice": 33.15,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRODUTO_75MM",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "96985",
+          "source": "SINAPI/PI",
+          "description": "HASTE DE ATERRAMENTO 5/8 PARA SPDA - FORNECIMENTO E INSTALAÇÃO. AF_12/2017",
+          "unit": "UN",
+          "unitPrice": 73.42,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "HASTE_ATERRAMENTO",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "SEDUC E 118",
+          "source": "COMP. PRÓPRIA",
+          "description": "CORDOALHA DE COBRE NU 25 MM², NÃO ENTERRADA, COM ISOLADOR - FORNECIMENTO E INSTALAÇÃO. AF_12/2017",
+          "unit": "M",
+          "unitPrice": 72.11,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CORDOALHA_COBRE_25MM",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "93358-QGBT",
+          "source": "SINAPI/PI",
+          "description": "ESCAVAÇÃO MANUAL DE VALA COM PROFUNDIDADE MENOR OU IGUAL A 1,30 M (REDE ELÉTRICA ENTERRADA). AF_02/2021",
+          "unit": "M3",
+          "unitPrice": 22.05,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ESCAVACAO_VALA_ELETRICA",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "93382",
+          "source": "SINAPI/PI",
+          "description": "REATERRO MANUAL DE VALAS COM COMPACTAÇÃO MECANIZADA. AF_04/2016",
+          "unit": "M3",
+          "unitPrice": 40.71,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "REATERRO_VALA_ELETRICA",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "SEDUC E 110",
+          "source": "COMP. PRÓPRIA",
+          "description": "INSTALAÇÃO DE DPS 45KA CLASSE II, INCLUSO DISJUNTOR DE PROTEÇÃO",
+          "unit": "UN",
+          "unitPrice": 104.49,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "DPS_45KA",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "9324",
+          "source": "ORSE",
+          "description": "Disjuntor termomagnético tripolar 150 A, com caixa moldada 10KA",
+          "unit": "UN",
+          "unitPrice": 323.61,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "DISJUNTOR_150A",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "10064",
+          "source": "ORSE",
+          "description": "Disjuntor termomagnético tripolar 125 A com caixa moldada 10 Ka",
+          "unit": "UN",
+          "unitPrice": 250.75,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "DISJUNTOR_125A_CAIXA_MOLDADA",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "12044",
+          "source": "ORSE",
+          "description": "Cabo cobre flexível, não hologenado, 95,0mm2 - 0,6/1KV / 90º",
+          "unit": "M",
+          "unitPrice": 67.95,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "CABO_95MM",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "101508",
+          "source": "SINAPI/PI",
+          "description": "ENTRADA DE ENERGIA ELÉTRICA, AÉREA, TRIFÁSICA, COM CAIXA DE SOBREPOR, CABO DE 35 MM2 E DISJUNTOR DIN 50A (NÃO INCLUSO O POSTE DE CONCRETO). AF_07/2020",
+          "unit": "UN",
+          "unitPrice": 1943.75,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ENTRADA_ENERGIA",
+            "QGBT"
+          ]
+        },
+        {
+          "code": "88485",
+          "source": "SINAPI/PI",
+          "description": "FUNDO SELADOR ACRÍLICO, APLICAÇÃO MANUAL EM PAREDE, UMA DEMÃO. AF_04/2023",
+          "unit": "M2",
+          "unitPrice": 3.18,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "FUNDO_SELADOR",
+            "PINTURA"
+          ]
+        },
+        {
+          "code": "88495",
+          "source": "SINAPI/PI",
+          "description": "EMASSAMENTO COM MASSA LÁTEX, APLICAÇÃO EM PAREDE, UMA DEMÃO, LIXAMENTO MANUAL. AF_04/2023",
+          "unit": "M2",
+          "unitPrice": 9.93,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "EMASSAMENTO_PAREDE",
+            "MASSA_LATEX"
+          ]
+        },
+        {
+          "code": "88494",
+          "source": "SINAPI/PI",
+          "description": "EMASSAMENTO COM MASSA LÁTEX, APLICAÇÃO EM TETO, UMA DEMÃO, LIXAMENTO MANUAL. AF_04/2023",
+          "unit": "M2",
+          "unitPrice": 17.8,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "EMASSAMENTO_TETO",
+            "MASSA_LATEX"
+          ]
+        },
+        {
+          "code": "88489",
+          "source": "SINAPI/PI",
+          "description": "PINTURA LÁTEX ACRÍLICA PREMIUM, APLICAÇÃO MANUAL EM PAREDES, DUAS DEMÃOS. AF_04/2023",
+          "unit": "M2",
+          "unitPrice": 9.19,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA_ACRILICA",
+            "PAREDE"
+          ]
+        },
+        {
+          "code": "S19.1",
+          "source": "SEDUC/PI",
+          "description": "PINTURA MANUAL COM TINTA EM PÓ MINERAL IMPERMEÁVEL EM PAREDES, DUAS DEMÃOS",
+          "unit": "M2",
+          "unitPrice": 5.78,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA_MINERAL",
+            "PAREDE"
+          ]
+        },
+        {
+          "code": "100762",
+          "source": "SINAPI/PI",
+          "description": "PINTURA COM TINTA ALQUÍDICA DE ACABAMENTO (ESMALTE SINTÉTICO FOSCO) APLICADA A ROLO OU PINCEL SOBRE SUPERFÍCIES METÁLICAS (EXCETO PERFIL) EXECUTADO EM OBRA (02 DEMÃOS). AF_01/2020",
+          "unit": "M2",
+          "unitPrice": 40.93,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA_ESMALTE",
+            "ESQUADRIA_METALICA"
+          ]
+        },
+        {
+          "code": "102491",
+          "source": "SINAPI/PI",
+          "description": "PINTURA DE PISO COM TINTA ACRÍLICA, APLICAÇÃO MANUAL, 2 DEMÃOS, INCLUSO FUNDO PREPARADOR. AF_05/2021",
+          "unit": "M2",
+          "unitPrice": 15.29,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA_PISO",
+            "CALCADA"
+          ]
+        },
+        {
+          "code": "S21.1",
+          "source": "SEDUC/PI",
+          "description": "ESPELHO CRISTAL, ESPESSURA 4MM, COM PARAFUSOS DE FIXAÇÃO, SEM MOLDURA",
+          "unit": "M2",
+          "unitPrice": 477.11,
+          "disciplina": "COMPLEMENTARES",
+          "tags_universais": [
+            "ESPELHO_CRISTAL",
+            "ACABAMENTO"
+          ]
+        },
+        {
+          "code": "CP_27",
+          "source": "CP_PRÓPRIA",
+          "description": "PLACA EM ALUMÍNIO 15x60CM C/ VINIL APLICADO EM 1 FACE E FIXAÇÃO COM FITA DUPLA FACE (FORNECIMENTO E MONTAGEM)",
+          "unit": "UN",
+          "unitPrice": 81.02,
+          "disciplina": "COMPLEMENTARES",
+          "tags_universais": [
+            "PLACA_SINALIZACAO",
+            "SALA_AULA"
+          ]
+        },
+        {
+          "code": "S21.18",
+          "source": "SEDUC/PI",
+          "description": "LIMPEZA GERAL E FINAL DA OBRA",
+          "unit": "M2",
+          "unitPrice": 2.54,
+          "disciplina": "LIMPEZA",
+          "tags_universais": [
+            "LIMPEZA_FINAL",
+            "OBRA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cnt-seduc-ugerf-ceti",
+      "name": "Planilha Oficial SEDUC/UGERF - Manutenção Predial (SINAPI/PI 04/2025)",
+      "ataNumber": "UGERF/SEDUC-PI • CETI Dona Morena",
+      "agency": "Governo do Estado do Piauí • SEDUC / UGERF",
+      "bdiPercent": 26.85,
+      "taxRegime": "DESONERADO",
+      "createdAt": "2026-10-29",
+      "templateFileName": "Planilha_Manutencao_CETI_Dona_Morena_SEDUC_PI.xlsx",
+      "priceTable": [
+        {
+          "code": "97644",
+          "source": "SINAPI/PI",
+          "description": "REMOÇÃO DE PORTAS, DE FORMA MANUAL, SEM REAPROVEITAMENTO. AF_12/2017",
+          "unit": "M2",
+          "unitPrice": 9.64,
+          "disciplina": "DEMOLICAO",
+          "tags_universais": [
+            "DEMOLICAO",
+            "REMOCAO",
+            "PORTA",
+            "ESQUADRIA"
+          ]
+        },
+        {
+          "code": "97645",
+          "source": "SINAPI/PI",
+          "description": "REMOÇÃO DE JANELAS, DE FORMA MANUAL, SEM REAPROVEITAMENTO. AF_12/2017",
+          "unit": "M2",
+          "unitPrice": 24.9,
+          "disciplina": "DEMOLICAO",
+          "tags_universais": [
+            "DEMOLICAO",
+            "REMOCAO",
+            "JANELA",
+            "ESQUADRIA"
+          ]
+        },
+        {
+          "code": "97622",
+          "source": "SINAPI/PI",
+          "description": "DEMOLIÇÃO DE ALVENARIA DE BLOCO FURADO, DE FORMA MANUAL, SEM REAPROVEITAMENTO. AF_12/2017",
+          "unit": "M3",
+          "unitPrice": 57.35,
+          "disciplina": "DEMOLICAO",
+          "tags_universais": [
+            "DEMOLICAO",
+            "ALVENARIA",
+            "PAREDE"
+          ]
+        },
+        {
+          "code": "S2.6",
+          "source": "SINAPI/PI",
+          "description": "REMOÇÃO DE BANCADA DE GRANITO, MÁRMORE OU MARMORITE",
+          "unit": "M2",
+          "unitPrice": 28.65,
+          "disciplina": "DEMOLICAO",
+          "tags_universais": [
+            "DEMOLICAO",
+            "REMOCAO",
+            "BANCADA",
+            "GRANITO"
+          ]
+        },
+        {
+          "code": "97640",
+          "source": "SINAPI/PI",
+          "description": "REMOÇÃO DE FORROS DE DRYWALL, PVC E FIBROMINERAL, DE FORMA MANUAL, SEM REAPROVEITAMENTO. AF_12/2017",
+          "unit": "M2",
+          "unitPrice": 1.91,
+          "disciplina": "DEMOLICAO",
+          "tags_universais": [
+            "DEMOLICAO",
+            "REMOCAO",
+            "FORRO",
+            "PVC"
+          ]
+        },
+        {
+          "code": "100981",
+          "source": "SINAPI/PI",
+          "description": "CARGA, MANOBRA E DESCARGA DE ENTULHO EM CAMINHÃO BASCULANTE 6 M³ - CARGA COM ESCAVADEIRA HIDRÁULICA (CAÇAMBA DE 0,80 M³ / 111 HP) E DESCARGA LIVRE (UNIDADE: M3). AF_07/2020",
+          "unit": "M3",
+          "unitPrice": 9.44,
+          "disciplina": "PRELIMINARES",
+          "tags_universais": [
+            "PRELIMINARES",
+            "ENTULHO",
+            "CARGA",
+            "LIMPEZA"
+          ]
+        },
+        {
+          "code": "97914",
+          "source": "SINAPI/PI",
+          "description": "TRANSPORTE COM CAMINHÃO BASCULANTE DE 6 M³, EM VIA URBANA PAVIMENTADA, DMT ATÉ 30 KM (UNIDADE: M3XKM). AF_07/2020",
+          "unit": "M3XKM",
+          "unitPrice": 2.98,
+          "disciplina": "PRELIMINARES",
+          "tags_universais": [
+            "PRELIMINARES",
+            "TRANSPORTE",
+            "ENTULHO"
+          ]
+        },
+        {
+          "code": "103332",
+          "source": "SINAPI/PI",
+          "description": "ALVENARIA DE VEDAÇÃO DE BLOCOS CERÂMICOS FURADOS NA HORIZONTAL DE 9X14X19 CM (ESPESSURA 9 CM) E ARGAMASSA DE ASSENTAMENTO COM PREPARO EM BETONEIRA. AF_12/2021",
+          "unit": "M2",
+          "unitPrice": 117.84,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "ALVENARIA",
+            "PAREDE",
+            "VEDACAO",
+            "BLOCO_CERAMICO"
+          ]
+        },
+        {
+          "code": "102253",
+          "source": "SINAPI/PI",
+          "description": "BANCADA EM GRANITO CINZA ANDORINHA, ESP.= 2CM, INCLUSIVE FIXAÇÃO E FERRAGENS",
+          "unit": "M2",
+          "unitPrice": 913.52,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "BANCADA",
+            "GRANITO",
+            "LABORATORIO",
+            "MOBILIARIO_FIXO"
+          ]
+        },
+        {
+          "code": "100330",
+          "source": "SINAPI/PI",
+          "description": "RETIRADA E RECOLOCAÇÃO DE TELHA CERÂMICA CAPA-CANAL, COM ATÉ DUAS ÁGUAS, INCLUSO IÇAMENTO. AF_07/2019",
+          "unit": "M2",
+          "unitPrice": 16.65,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "TELHA",
+            "CERAMICA",
+            "MANUTENCAO"
+          ]
+        },
+        {
+          "code": "100388",
+          "source": "SINAPI/PI",
+          "description": "RETIRADA E RECOLOCAÇÃO DE RIPA EM TELHADOS DE ATÉ 2 ÁGUAS COM TELHA CERÂMICA OU DE CONCRETO DE ENCAIXE, INCLUSO TRANSPORTE VERTICAL. AF_07/2019",
+          "unit": "M2",
+          "unitPrice": 17.59,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "RIPA",
+            "MADEIRAMENTO"
+          ]
+        },
+        {
+          "code": "100389",
+          "source": "SINAPI/PI",
+          "description": "RETIRADA E RECOLOCAÇÃO DE CAIBRO EM TELHADOS DE ATÉ 2 ÁGUAS COM TELHA CERÂMICA OU DE CONCRETO DE ENCAIXE, INCLUSO TRANSPORTE VERTICAL. AF_07/2019",
+          "unit": "M2",
+          "unitPrice": 16.27,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "CAIBRO",
+            "MADEIRAMENTO"
+          ]
+        },
+        {
+          "code": "102234",
+          "source": "SINAPI/PI",
+          "description": "PINTURA IMUNIZANTE PARA MADEIRA, 2 DEMÃOS. AF_01/2021",
+          "unit": "M2",
+          "unitPrice": 25.61,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "PINTURA_IMUNIZANTE",
+            "MADEIRA"
+          ]
+        },
+        {
+          "code": "96116",
+          "source": "SINAPI/PI",
+          "description": "FORRO EM RÉGUAS DE PVC, FRISADO, PARA AMBIENTES COMERCIAIS, INCLUSIVE ESTRUTURA BIDIRECIONAL DE FIXAÇÃO. AF_08/2023",
+          "unit": "M2",
+          "unitPrice": 62.81,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "FORRO",
+            "PVC",
+            "TETO",
+            "INTERNO"
+          ]
+        },
+        {
+          "code": "100701",
+          "source": "SINAPI/PI",
+          "description": "PORTA DE FERRO, DE ABRIR, TIPO GRADE COM CHAPA, COM GUARNIÇÕES. AF_12/2019",
+          "unit": "M2",
+          "unitPrice": 415.29,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "ESQUADRIA_METALICA",
+            "PORTA_FERRO",
+            "SEGURANCA"
+          ]
+        },
+        {
+          "code": "94570",
+          "source": "SINAPI/PI",
+          "description": "JANELA DE ALUMÍNIO DE CORRER COM 2 FOLHAS PARA VIDROS, COM VIDROS, BATENTE, ACABAMENTO COM ACETATO OU BRILHANTE E FERRAGENS. EXCLUSIVE ALIZAR E CONTRAMARCO. FORNECIMENTO E INSTALAÇÃO. AF_12/2019",
+          "unit": "M2",
+          "unitPrice": 314.75,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "ESQUADRIA_METALICA",
+            "JANELA_ALUMINIO",
+            "VIDRO"
+          ]
+        },
+        {
+          "code": "90830",
+          "source": "SINAPI/PI",
+          "description": "FECHADURA DE EMBUTIR COM CILINDRO, EXTERNA, COMPLETA, ACABAMENTO PADRÃO MÉDIO, INCLUSO EXECUÇÃO DE FURO - FORNECIMENTO E INSTALAÇÃO. AF_12/2019",
+          "unit": "UN",
+          "unitPrice": 179.5,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "ESQUADRIA",
+            "FECHADURA",
+            "ACABAMENTO"
+          ]
+        },
+        {
+          "code": "87528",
+          "source": "SINAPI/PI",
+          "description": "MASSA ÚNICA, PARA RECEBIMENTO DE PINTURA, EM ARGAMASSA TRAÇO 1:2:8, PREPARO MECÂNICO COM BETONEIRA 400L, APLICADA MANUALMENTE EM FACES INTERNAS DE PAREDES, ESPESSURA DE 20MM, COM EXECUÇÃO DE TALISCAS. AF_06/2013",
+          "unit": "M2",
+          "unitPrice": 36.69,
+          "disciplina": "REVESTIMENTO",
+          "tags_universais": [
+            "REVESTIMENTO",
+            "REBOCO",
+            "MASSA_UNICA",
+            "PAREDE"
+          ]
+        },
+        {
+          "code": "S9.1",
+          "source": "SEDUC/PI",
+          "description": "REVESTIMENTO CERÂMICO ESMALTADO 10X10CM PARA PAREDE, APLICADO COM ARGAMASSA INDUSTRIALIZADA AC-II E REJUNTADO",
+          "unit": "M2",
+          "unitPrice": 62.54,
+          "disciplina": "REVESTIMENTO",
+          "tags_universais": [
+            "REVESTIMENTO",
+            "CERAMICO",
+            "PAREDE",
+            "INTERNO",
+            "PADRAO_SEDUC"
+          ]
+        },
+        {
+          "code": "87251",
+          "source": "SINAPI/PI",
+          "description": "REVESTIMENTO CERÂMICO PARA PISO COM PLACAS TIPO ESMALTADA EXTRA DE DIMENSÕES 45X45 CM APLICADA EM AMBIENTES DE ÁREA MAIOR QUE 10 M2. AF_02/2023_PE",
+          "unit": "M2",
+          "unitPrice": 57.82,
+          "disciplina": "PISO",
+          "tags_universais": [
+            "PISO",
+            "REVESTIMENTO",
+            "CERAMICO",
+            "45X45"
+          ]
+        },
+        {
+          "code": "96620",
+          "source": "SINAPI/PI",
+          "description": "LASTRO DE CONCRETO MAGRO, APLICADO EM PISOS, LAJES SOBRE SOLO OU RADIERS. AF_08/2017",
+          "unit": "M3",
+          "unitPrice": 903.59,
+          "disciplina": "PISO",
+          "tags_universais": [
+            "PISO",
+            "LASTRO",
+            "CONCRETO_MAGRO"
+          ]
+        },
+        {
+          "code": "91940",
+          "source": "SINAPI/PI",
+          "description": "CAIXA RETANGULAR 4\" X 2\" MÉDIA (1,30 M DO PISO), PVC, INSTALADA EM PAREDE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 17.66,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "CAIXA_4X2",
+            "TOMADA",
+            "LOGICA"
+          ]
+        },
+        {
+          "code": "91926",
+          "source": "SINAPI/PI",
+          "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 2,5 MM², ANTI-CHAMA 450/750 V, PARA CIRCUITOS TERMINAIS - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "M",
+          "unitPrice": 4.63,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "CABO_2_5MM",
+            "CIRCUITO"
+          ]
+        },
+        {
+          "code": "91959",
+          "source": "SINAPI/PI",
+          "description": "INTERRUPTOR SIMPLES (2 MÓDULOS), 10A/250V, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 47.12,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "INTERRUPTOR",
+            "ILUMINACAO"
+          ]
+        },
+        {
+          "code": "91996",
+          "source": "SINAPI/PI",
+          "description": "TOMADA MÉDIA DE EMBUTIR (1 MÓDULO), 2P+T 10 A, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 36.19,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "TOMADA_MEDIA",
+            "COMPUTADOR"
+          ]
+        },
+        {
+          "code": "91992",
+          "source": "SINAPI/PI",
+          "description": "TOMADA ALTA DE EMBUTIR (1 MÓDULO), 2P+T 10 A, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 45.99,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "TOMADA_ALTA",
+            "CLIMATIZACAO"
+          ]
+        },
+        {
+          "code": "92000",
+          "source": "SINAPI/PI",
+          "description": "TOMADA BAIXA DE EMBUTIR (1 MÓDULO), 2P+T 10 A, INCLUINDO SUPORTE E PLACA - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 32.4,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "TOMADA_BAIXA",
+            "COMPUTADOR"
+          ]
+        },
+        {
+          "code": "105543",
+          "source": "SINAPI/PI",
+          "description": "LUMINÁRIA LED DE SOBREPOR - QUADRADA *60X60*CM, INCLUSO DRIVER - FORNECIMENTO E INSTALAÇÃO. AF_09/2024",
+          "unit": "UN",
+          "unitPrice": 38.81,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "ILUMINACAO",
+            "LUMINARIA_LED",
+            "60X60"
+          ]
+        },
+        {
+          "code": "91854",
+          "source": "SINAPI/PI",
+          "description": "ELETRODUTO FLEXÍVEL CORRUGADO, PVC, DN 25 MM (3/4\"), PARA CIRCUITOS TERMINAIS, INSTALADO EM PAREDE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "M",
+          "unitPrice": 9.52,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "ELETRODUTO",
+            "INFRAESTRUTURA"
+          ]
+        },
+        {
+          "code": "93653",
+          "source": "SINAPI/PI",
+          "description": "DISJUNTOR MONOPOLAR TIPO DIN, CORRENTE NOMINAL DE 10A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+          "unit": "UN",
+          "unitPrice": 11.35,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "DISJUNTOR_10A",
+            "PROTECAO"
+          ]
+        },
+        {
+          "code": "91928",
+          "source": "SINAPI/PI",
+          "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 4 MM², ANTI-CHAMA 450/750 V, PARA CIRCUITOS TERMINAIS - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "M",
+          "unitPrice": 7.21,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "CABO_4MM",
+            "CLIMATIZACAO"
+          ]
+        },
+        {
+          "code": "91939",
+          "source": "SINAPI/PI",
+          "description": "CAIXA RETANGULAR 4\" X 2\" ALTA (2,00 M DO PISO), PVC, INSTALADA EM PAREDE - FORNECIMENTO E INSTALAÇÃO. AF_03/2023",
+          "unit": "UN",
+          "unitPrice": 30.75,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "CAIXA_ALTA",
+            "CLIMATIZACAO"
+          ]
+        },
+        {
+          "code": "93655",
+          "source": "SINAPI/PI",
+          "description": "DISJUNTOR MONOPOLAR TIPO DIN, CORRENTE NOMINAL DE 20A - FORNECIMENTO E INSTALAÇÃO. AF_10/2020",
+          "unit": "UN",
+          "unitPrice": 13.3,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "DISJUNTOR_20A",
+            "CLIMATIZACAO"
+          ]
+        },
+        {
+          "code": "98297",
+          "source": "SINAPI/PI",
+          "description": "CABO ELETRÔNICO CATEGORIA 6, INSTALADO EM EDIFICAÇÃO INSTITUCIONAL FORNECIMENTO E INSTALAÇÃO. AF_11/2019",
+          "unit": "M",
+          "unitPrice": 11.22,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "CABEAMENTO_ESTRUTURADO",
+            "CAT6",
+            "REDE_LOGICA"
+          ]
+        },
+        {
+          "code": "98307",
+          "source": "SINAPI/PI",
+          "description": "TOMADA DE REDE RJ45 - FORNECIMENTO E INSTALAÇÃO. AF_11/2019",
+          "unit": "UN",
+          "unitPrice": 50.47,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "TOMADA_RJ45",
+            "REDE_LOGICA",
+            "COMPUTADOR"
+          ]
+        },
+        {
+          "code": "88485",
+          "source": "SINAPI/PI",
+          "description": "FUNDO SELADOR ACRÍLICO, APLICAÇÃO MANUAL EM PAREDE, UMA DEMÃO. AF_04/2023",
+          "unit": "M2",
+          "unitPrice": 4.25,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "PREPARO",
+            "FUNDO_SELADOR",
+            "PAREDE"
+          ]
+        },
+        {
+          "code": "88495",
+          "source": "SINAPI/PI",
+          "description": "EMASSAMENTO COM MASSA LÁTEX, APLICAÇÃO EM PAREDE, UMA DEMÃO, LIXAMENTO MANUAL. AF_04/2023",
+          "unit": "M2",
+          "unitPrice": 10.87,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "EMASSAMENTO",
+            "MASSA_LATEX",
+            "PAREDE"
+          ]
+        },
+        {
+          "code": "88489",
+          "source": "SINAPI/PI",
+          "description": "PINTURA LÁTEX ACRÍLICA PREMIUM, APLICAÇÃO MANUAL EM PAREDES, DUAS DEMÃOS. AF_04/2023",
+          "unit": "M2",
+          "unitPrice": 12.19,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "PAREDE",
+            "INTERNO",
+            "ACABAMENTO",
+            "ACRILICA_PREMIUM"
+          ]
+        },
+        {
+          "code": "100762",
+          "source": "SINAPI/PI",
+          "description": "PINTURA COM TINTA ALQUÍDICA DE ACABAMENTO (ESMALTE SINTÉTICO FOSCO) APLICADA A ROLO OU PINCEL SOBRE SUPERFÍCIES METÁLICAS (EXCETO PERFIL) EXECUTADO EM OBRA (02 DEMÃOS). AF_01/2020",
+          "unit": "M2",
+          "unitPrice": 49.76,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "ESMALTE_SINTETICO",
+            "ESQUADRIA_METALICA"
+          ]
+        },
+        {
+          "code": "99826",
+          "source": "SINAPI/PI",
+          "description": "LIMPEZA DE FORRO REMOVÍVEL COM PANO ÚMIDO. AF_04/2019",
+          "unit": "M2",
+          "unitPrice": 1.56,
+          "disciplina": "LIMPEZA",
+          "tags_universais": [
+            "LIMPEZA",
+            "FORRO",
+            "ACABAMENTO"
+          ]
+        },
+        {
+          "code": "99803",
+          "source": "SINAPI/PI",
+          "description": "LIMPEZA GERAL E FINAL DA OBRA",
+          "unit": "M2",
+          "unitPrice": 2.1,
+          "disciplina": "LIMPEZA",
+          "tags_universais": [
+            "LIMPEZA",
+            "LIMPEZA_FINAL",
+            "OBRA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cnt-ata-escolar-01",
+      "name": "Contrato 217 - Ata de Manutenção Escolar (SEDUC-PI)",
+      "ataNumber": "Contrato Nº 217/2026 - ARP SEDUC",
+      "agency": "Secretaria Estadual de Educação do Piauí (SEDUC-PI)",
+      "bdiPercent": 24.8,
+      "taxRegime": "DESONERADO",
+      "createdAt": "2026-01-15",
+      "templateFileName": "Planilha_Mestra_Contrato217_SEDUC.xlsx",
+      "priceTable": [
+        {
+          "code": "SINAPI-99059",
+          "source": "SINAPI",
+          "description": "LOCAÇÃO CONVENCIONAL DE OBRA, UTILIZANDO GABARITO DE TÁBUAS CORRIDAS PONTALETADAS",
+          "unit": "M2",
+          "unitPrice": 20.1,
+          "disciplina": "PRELIMINARES",
+          "tags_universais": [
+            "PRELIMINARES",
+            "LOCACAO",
+            "PREPARO"
+          ]
+        },
+        {
+          "code": "SINAPI-93358",
+          "source": "SINAPI",
+          "description": "ESCAVAÇÃO MANUAL DE VALA COM PROFUNDIDADE MENOR OU IGUAL A 1,30 M",
+          "unit": "M3",
+          "unitPrice": 51.2,
+          "disciplina": "PRELIMINARES",
+          "tags_universais": [
+            "PRELIMINARES",
+            "ESCAVACAO",
+            "FUNDACAO"
+          ]
+        },
+        {
+          "code": "SINAPI-96555",
+          "source": "SINAPI",
+          "description": "CONCRETO FCK = 25MPA, TRAÇO 1:2,3:2,7 (EM MASSA SECA DE CIMENTO/ AREIA MÉDIA/ BRITA 1)",
+          "unit": "M3",
+          "unitPrice": 368.4,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "ESTRUTURA",
+            "CONCRETO",
+            "FUNDACAO"
+          ]
+        },
+        {
+          "code": "SINAPI-103328",
+          "source": "SINAPI",
+          "description": "ALVENARIA DE VEDAÇÃO DE BLOCOS CERÂMICOS FURADOS NA HORIZONTAL DE 9X19X19 CM (ESPESSURA 9 CM)",
+          "unit": "M2",
+          "unitPrice": 61.5,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "ALVENARIA",
+            "PAREDE",
+            "VEDACAO",
+            "BLOCO_CERAMICO"
+          ]
+        },
+        {
+          "code": "SINAPI-94228",
+          "source": "SINAPI",
+          "description": "TELHAMENTO COM TELHA CERÂMICA CAPA-CANAL, TIPO COLONIAL, COM ATÉ 2 ÁGUAS",
+          "unit": "M2",
+          "unitPrice": 31.8,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "TELHAMENTO",
+            "CERAMICA",
+            "EXTERNO"
+          ]
+        },
+        {
+          "code": "SINAPI-96111",
+          "source": "SINAPI",
+          "description": "FORRO EM RÉGUAS DE PVC, FRISADO, PARA AMBIENTES COMERCIAIS, INCLUSIVE ESTRUTURA DE FIXAÇÃO",
+          "unit": "M2",
+          "unitPrice": 46.2,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "FORRO",
+            "TETO",
+            "INTERNO",
+            "PVC"
+          ],
+          "servicos_embutidos": [
+            "ESTRUTURA_FIXACAO"
+          ]
+        },
+        {
+          "code": "SINAPI-87263",
+          "source": "SINAPI",
+          "description": "REVESTIMENTO CERÂMICO PARA PISO COM PLACAS TIPO ESMALTADA EXTRA DE DIMENSÕES 45X45 CM (PEI IV/V)",
+          "unit": "M2",
+          "unitPrice": 56.4,
+          "disciplina": "PISO",
+          "tags_universais": [
+            "PISO",
+            "REVESTIMENTO",
+            "CERAMICO",
+            "PISO_INTERNO",
+            "ACABAMENTO"
+          ]
+        },
+        {
+          "code": "SINAPI-88489",
+          "source": "SINAPI",
+          "description": "APLICAÇÃO MANUAL DE PINTURA COM TINTA LÁTEX ACRÍLICA EM PAREDES, DUAS DEMÃOS",
+          "unit": "M2",
+          "unitPrice": 12.4,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "PAREDE",
+            "INTERNO",
+            "ACABAMENTO",
+            "ACRILICA",
+            "2_DEMAOS"
+          ],
+          "gatilhos_sinonimos": [
+            "pintar sala",
+            "pintura interna",
+            "tinta parede"
+          ]
+        },
+        {
+          "code": "SINAPI-88497",
+          "source": "SINAPI",
+          "description": "APLICAÇÃO E LIXAMENTO DE MASSA LÁTEX PVA EM PAREDES INTERNAS, DUAS DEMÃOS",
+          "unit": "M2",
+          "unitPrice": 16.8,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "PAREDE",
+            "INTERNO",
+            "EMASSAMENTO",
+            "MASSA_CORRIDA",
+            "PVA",
+            "2_DEMAOS"
+          ],
+          "servicos_embutidos": [
+            "LIXAMENTO_MASSA"
+          ]
+        },
+        {
+          "code": "SINAPI-88493",
+          "source": "SINAPI",
+          "description": "APLICAÇÃO MANUAL DE PINTURA COM TINTA ACRÍLICA EM FACHADAS E MUROS EXTERNOS, DUAS DEMÃOS",
+          "unit": "M2",
+          "unitPrice": 14.9,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "EXTERNO",
+            "MURO",
+            "FACHADA",
+            "ACABAMENTO",
+            "ACRILICA",
+            "2_DEMAOS"
+          ]
+        },
+        {
+          "code": "SINAPI-102491",
+          "source": "SINAPI",
+          "description": "PINTURA DE PISO E CALÇADA COM TINTA ACRÍLICA DE ALTA RESISTÊNCIA, DUAS DEMÃOS, INCLUSO LIMPEZA",
+          "unit": "M2",
+          "unitPrice": 18.5,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "PINTURA_PISO",
+            "CALCADA",
+            "EXTERNO",
+            "DEMARCACAO",
+            "2_DEMAOS"
+          ],
+          "servicos_embutidos": [
+            "LIMPEZA_PISO"
+          ]
+        },
+        {
+          "code": "SINAPI-97631",
+          "source": "SINAPI",
+          "description": "DEMOLIÇÃO DE REVESTIMENTO CERÂMICO / REMOÇÃO DE TELHAS, DE FORMA MANUAL",
+          "unit": "M2",
+          "unitPrice": 11.8,
+          "disciplina": "DEMOLICAO",
+          "tags_universais": [
+            "DEMOLICAO",
+            "PREPARO",
+            "REMOCAO",
+            "PISO"
+          ]
+        },
+        {
+          "code": "SINAPI-89957",
+          "source": "SINAPI",
+          "description": "PONTO DE CONSUMO TERMINAL DE ÁGUA FRIA (SUBRAMAL) COM TUBO DE PVC, SOLDÁVEL, DN 25 MM",
+          "unit": "UN",
+          "unitPrice": 134.9,
+          "disciplina": "HIDRAULICA",
+          "tags_universais": [
+            "HIDRAULICA",
+            "AREA_MOLHADA",
+            "AGUA_FRIA"
+          ]
+        },
+        {
+          "code": "SINAPI-98557",
+          "source": "SINAPI",
+          "description": "IMPERMEABILIZAÇÃO DE SUPERFÍCIE COM ARGAMASSA POLIMÉRICA / MEMBRANA ACRÍLICA",
+          "unit": "M2",
+          "unitPrice": 44.1,
+          "disciplina": "HIDRAULICA",
+          "tags_universais": [
+            "IMPERMEABILIZACAO",
+            "AREA_MOLHADA",
+            "PREPARO"
+          ]
+        },
+        {
+          "code": "SINAPI-96486",
+          "source": "SINAPI",
+          "description": "FORRO DE GESSO ACARTONADO (DRYWALL), RESISTENTE A UMIDADE (RU), ESTRUTURADO",
+          "unit": "M2",
+          "unitPrice": 75.8,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "FORRO",
+            "GESSO",
+            "TETO",
+            "INTERNO"
+          ]
+        },
+        {
+          "code": "SINAPI-99814",
+          "source": "SINAPI",
+          "description": "LIMPEZA E RASPAGEM DE SUPERFÍCIE COM REMOÇÃO DE TINTA ANTIGA SOLTA E LIXAMENTO",
+          "unit": "M2",
+          "unitPrice": 5.2,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "PREPARO",
+            "LIMPEZA",
+            "RASPAGEM",
+            "LIXAMENTO",
+            "PAREDE"
+          ]
+        },
+        {
+          "code": "SINAPI-88485",
+          "source": "SINAPI",
+          "description": "APLICAÇÃO DE FUNDO SELADOR ACRÍLICO EM PAREDES, UMA DEMÃO",
+          "unit": "M2",
+          "unitPrice": 4.75,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "PREPARO",
+            "FUNDO_SELADOR",
+            "SELADOR",
+            "PAREDE",
+            "INTERNO",
+            "EXTERNO"
+          ]
+        },
+        {
+          "code": "SINAPI-101875",
+          "source": "SINAPI",
+          "description": "QUADRO DE DISTRIBUIÇÃO DE ENERGIA EM CHAPA DE AÇO GALVANIZADO, DE EMBUTIR",
+          "unit": "UN",
+          "unitPrice": 580,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "QUADRO",
+            "PROTECAO",
+            "DISTRIBUICAO"
+          ]
+        },
+        {
+          "code": "SINAPI-91926",
+          "source": "SINAPI",
+          "description": "CABO DE COBRE FLEXÍVEL ISOLADO, 2,5 MM² / CAT6 BLINDADO",
+          "unit": "M",
+          "unitPrice": 5.4,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "CABO",
+            "CIRCUITO",
+            "ALIMENTACAO"
+          ]
+        },
+        {
+          "code": "SINAPI-97592",
+          "source": "SINAPI",
+          "description": "LUMINÁRIA TIPO PLAFON/PAINEL LED DE SOBREPOR OU EMBUTIR",
+          "unit": "UN",
+          "unitPrice": 118,
+          "disciplina": "ELETRICA",
+          "tags_universais": [
+            "ELETRICA",
+            "ILUMINACAO",
+            "LED",
+            "TETO",
+            "INTERNO"
+          ]
+        },
+        {
+          "code": "SINAPI-94213",
+          "source": "SINAPI",
+          "description": "TELHAMENTO COM TELHA METÁLICA TERMOACÚSTICA (SANDUÍCHE) EM AÇO GALVALUME",
+          "unit": "M2",
+          "unitPrice": 108.5,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "TELHA",
+            "METALICA",
+            "TERMOACUSTICA"
+          ]
+        },
+        {
+          "code": "SINAPI-94229",
+          "source": "SINAPI",
+          "description": "CALHA EM CHAPA DE AÇO GALVANIZADO NÚMERO 24, DESENVOLVIMENTO DE 50 CM",
+          "unit": "M",
+          "unitPrice": 80.2,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "CALHA",
+            "DRENAGEM_PLUVIAL"
+          ]
+        },
+        {
+          "code": "SINAPI-94994",
+          "source": "SINAPI",
+          "description": "EXECUÇÃO DE PASSEIO EM PISO INTERTRAVADO, COM BLOCO RETANGULAR 20X10 CM",
+          "unit": "M2",
+          "unitPrice": 64.1,
+          "disciplina": "PISO",
+          "tags_universais": [
+            "PISO",
+            "CALCADA",
+            "PASSEIO",
+            "EXTERNO",
+            "INTERTRAVADO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cnt-infra-predial-02",
+      "name": "Planilha Desenvolve - Reforma Predial Lote 02 (SEINFRA)",
+      "ataNumber": "CT Nº 089/2026 - Planilha Desenvolve",
+      "agency": "Secretaria de Infraestrutura e Obras Públicas (SEINFRA)",
+      "bdiPercent": 26.5,
+      "taxRegime": "NAO_DESONERADO",
+      "createdAt": "2026-02-10",
+      "templateFileName": "Planilha_Desenvolve_SEINFRA_CT089.xlsx",
+      "priceTable": [
+        {
+          "code": "SINAPI-99059",
+          "source": "SINAPI",
+          "description": "LOCAÇÃO CONVENCIONAL DE OBRA, UTILIZANDO GABARITO DE TÁBUAS CORRIDAS",
+          "unit": "M2",
+          "unitPrice": 21.4,
+          "disciplina": "PRELIMINARES",
+          "tags_universais": [
+            "PRELIMINARES",
+            "LOCACAO"
+          ]
+        },
+        {
+          "code": "SINAPI-93358",
+          "source": "SINAPI",
+          "description": "ESCAVAÇÃO MANUAL DE VALA COM PROFUNDIDADE MENOR OU IGUAL A 1,30 M",
+          "unit": "M3",
+          "unitPrice": 54,
+          "disciplina": "PRELIMINARES",
+          "tags_universais": [
+            "PRELIMINARES",
+            "ESCAVACAO"
+          ]
+        },
+        {
+          "code": "SINAPI-96555",
+          "source": "SINAPI",
+          "description": "CONCRETO FCK = 25MPA, TRAÇO 1:2,3:2,7 PREPARO MECÂNICO",
+          "unit": "M3",
+          "unitPrice": 382.1,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "ESTRUTURA",
+            "CONCRETO"
+          ]
+        },
+        {
+          "code": "SINAPI-103328",
+          "source": "SINAPI",
+          "description": "ALVENARIA DE VEDAÇÃO DE BLOCOS CERÂMICOS FURADOS NA HORIZONTAL 9X19X19 CM",
+          "unit": "M2",
+          "unitPrice": 64.2,
+          "disciplina": "ALVENARIA",
+          "tags_universais": [
+            "ALVENARIA",
+            "PAREDE",
+            "VEDACAO"
+          ]
+        },
+        {
+          "code": "SINAPI-94228",
+          "source": "SINAPI",
+          "description": "TELHAMENTO COM TELHA CERÂMICA CAPA-CANAL, TIPO COLONIAL",
+          "unit": "M2",
+          "unitPrice": 33.5,
+          "disciplina": "COBERTURA",
+          "tags_universais": [
+            "COBERTURA",
+            "TELHAMENTO"
+          ]
+        },
+        {
+          "code": "SINAPI-87263",
+          "source": "SINAPI",
+          "description": "REVESTIMENTO CERÂMICO PARA PISO COM PLACAS TIPO ESMALTADA EXTRA 45X45 CM",
+          "unit": "M2",
+          "unitPrice": 59.1,
+          "disciplina": "PISO",
+          "tags_universais": [
+            "PISO",
+            "REVESTIMENTO",
+            "CERAMICO"
+          ]
+        },
+        {
+          "code": "SINAPI-99814",
+          "source": "SINAPI",
+          "description": "LIMPEZA E RASPAGEM DE SUPERFÍCIE COM REMOÇÃO DE TINTA ANTIGA SOLTA E LIXAMENTO",
+          "unit": "M2",
+          "unitPrice": 5.65,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "PREPARO",
+            "LIMPEZA",
+            "RASPAGEM",
+            "LIXAMENTO",
+            "PAREDE"
+          ]
+        },
+        {
+          "code": "SINAPI-88485",
+          "source": "SINAPI",
+          "description": "APLICAÇÃO DE FUNDO SELADOR ACRÍLICO EM PAREDES, UMA DEMÃO",
+          "unit": "M2",
+          "unitPrice": 5.1,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "PREPARO",
+            "FUNDO_SELADOR",
+            "SELADOR",
+            "PAREDE",
+            "INTERNO",
+            "EXTERNO"
+          ]
+        },
+        {
+          "code": "SINAPI-88489",
+          "source": "SINAPI",
+          "description": "APLICAÇÃO MANUAL DE PINTURA COM TINTA LÁTEX ACRÍLICA EM PAREDES, DUAS DEMÃOS",
+          "unit": "M2",
+          "unitPrice": 13.1,
+          "disciplina": "PINTURA",
+          "tags_universais": [
+            "PINTURA",
+            "PAREDE",
+            "INTERNO",
+            "EXTERNO",
+            "ACABAMENTO",
+            "ACRILICA",
+            "2_DEMAOS"
+          ]
+        }
+      ]
+    }
+  ],
+  "selectedDemands": {
+    "dem-sala-aula": {
+      "demandId": "dem-sala-aula",
+      "demandType": "MODULAR",
+      "quantityUn": 1,
+      "itemOverrides": {},
+      "selectedSubItems": {
+        "sub-sala-fundacao-estrutura": {
+          "enabled": true,
+          "qty": 50
+        },
+        "sub-sala-cobertura": {
+          "enabled": true,
+          "qty": 58.68
+        },
+        "sub-sala-janelas": {
+          "enabled": true,
+          "qty": 3
+        },
+        "sub-sala-porta-ferro": {
+          "enabled": true,
+          "qty": 1
+        },
+        "sub-sala-pintura": {
+          "enabled": true,
+          "qty": 368.69
+        },
+        "sub-sala-revestimento-160": {
+          "enabled": false,
+          "qty": 0
+        },
+        "sub-sala-luminarias": {
+          "enabled": true,
+          "qty": 9
+        },
+        "sub-sala-eletrica-completa": {
+          "enabled": true,
+          "qty": 1.17
+        }
+      },
+      "classroomSelectorParams": {
+        "temRevestimento": false,
+        "coberturaFolhas": 2,
+        "luminarias": 9,
+        "janelas": 3,
+        "janelaComp": 2.5,
+        "janelaAlt": 1.5,
+        "portas": 1,
+        "salaAreaM2": 50
+      }
+    }
+  },
+  "activeContractId": "cnt-seduc-lote1-cerrados",
+  "updatedAt": "2026-11-21T20:16:19.229Z",
+  "version": 2
+}

@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/cloud-sync", "destination": "/api/cloud-sync" },
+    { "source": "/api/ia/status", "destination": "/api/ia-status" },
+    { "source": "/api/ia/config-key", "destination": "/api/ia-config-key" },
+    { "source": "/api/orcamentos/alocar-contrato-ia", "destination": "/api/alocar-contrato-ia" },
+    { "source": "/api/orcamentos/gerar-ia", "destination": "/api/gerar-ia" },
+    { "source": "/api/contratos/indexar", "destination": "/api/indexar-contrato" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
